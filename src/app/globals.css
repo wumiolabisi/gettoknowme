@@ -17,3 +17,7 @@ html {
     text-wrap: balance;
   }
 }
+
+.bg-transparent-blur {
+  background-color: #ffffffaf;
+}
