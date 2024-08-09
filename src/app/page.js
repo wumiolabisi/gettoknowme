@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <AnimatePresence mode="wait">
       {/* START SECTION RESUME */}
-      <div className="text-center">
+      <div className="text-center" id="home">
         <div className="flex flex-col-reverse items-center">
           <div className="flex flex-col-reverse items-center">
             <h1 className="text-3xl text-violet-900">Développeuse Web Fullstack située à Paris et sa région</h1>
