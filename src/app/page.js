@@ -2,6 +2,7 @@
 import Reveal from '../_components/Reveal';
 import Image from 'next/image';
 import Skills from '@/_sections/Skills';
+import Contact from '@/_sections/Contact';
 
 export default function Home() {
   const theCurrentTime = new Date();
@@ -14,38 +15,55 @@ export default function Home() {
 
   return (
     <>
-      <div id="home">
+      <div className="container md:w-3/4">
+        <div id="home">
 
-        <div className="flex flex-col-reverse items-center">
+          <div className="flex flex-col-reverse items-center">
+            <Reveal>
+              <div className="flex flex-col-reverse items-center">
+                <h1 className="text-3xl text-violet-900">Développeuse Web Fullstack située à Paris et sa région</h1>
+                <p className="uppercase md:text-6xl text-3xl font-bold mb-2 text-violet-900">Omowumi OLABISI</p>
+              </div>
+            </Reveal>
+            <Reveal>
+              <Image src="/Omowumi_OLABISI_photo.jpeg" className="object-cover rounded-full shadow-lg m-auto"
+                width={320}
+                height={500}
+                alt="Photo de Omowumi OLABISI, développeuse Web située à Paris" loading="lazy" />
+            </Reveal>
+          </div>
+          <div className="text-center">
+            <Reveal>
+              <p className="text-2xl text-violet-900/75">NextJS, React, WordPress, PHP, UI/UX et Accessiblité, ThreeJS, Framer Motion</p>
+            </Reveal>
+          </div>
+          <div className="flex md:flex-row flex-col my-12 items-center gap-2">
+            <Reveal>
+              <h2 className="text-2xl text-violet-900 uppercase">
+                {isPM ? 'Bonsoir' : 'Bonjour'} et bienvenu·e sur mon portfolio !
+              </h2>
+              <p className="text-xl">
+                J'ai passé les derniers mois à travailler mes compétences en développement web. J'ai axé mon apprentissage en autodidacte sur mon employabilité (si tant est que ce mot existe) et je suis prête à rejoindre une agence créative avec des valeurs humaines fortes !
+              </p>
+            </Reveal>
+            <Reveal>
+              <Image src="/Omowumi_OLABISI_photo.jpeg" className="object-cover rounded-full shadow-lg m-auto"
+                width={320}
+                height={500}
+                alt="Photo de Omowumi OLABISI, développeuse Web située à Paris" loading="lazy" />
+            </Reveal>
+          </div>
+        </div>
+
+        <div className="text-center" id="skills">
           <Reveal>
-            <div className="flex flex-col-reverse items-center">
-              <h1 className="text-3xl text-violet-900">Développeuse Web Fullstack située à Paris et sa région</h1>
-              <p className="uppercase md:text-6xl text-3xl font-bold mb-2 text-violet-900">Omowumi OLABISI</p>
-            </div>
-          </Reveal>
-          <Reveal>
-            <Image src="/Omowumi_OLABISI_photo.jpeg" className="object-cover rounded-full shadow-lg m-auto"
-              width={320}
-              height={500}
-              alt="Photo de Omowumi OLABISI, développeuse Web située à Paris" loading="lazy" />
+            <Skills />
           </Reveal>
         </div>
-        <Reveal>
-          <p className="text-2xl text-violet-900/75">NextJS, React, WordPress, PHP, UI/UX et Accessiblité, ThreeJS, Framer Motion</p>
-        </Reveal>
-        <div className="flex md:flex-row flex-col my-12 items-center gap-6">
-          <Reveal>
-            <p className="text-2xl text-violet-900/75">
-              {isPM ? 'Bonsoir' : 'Bonjour'}, je m'appelle Wumi. Bienvenue sur mon portfolio !
-            </p>
-          </Reveal>
-        </div>
-      </div>
 
-      <div className="text-center" id="skills">
-        <Reveal>
-          <Skills />
-        </Reveal>
+        <div id="contact">
+          <Contact />
+        </div>
       </div>
     </>
   )
