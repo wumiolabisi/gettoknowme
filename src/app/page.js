@@ -15,7 +15,7 @@ export default function Home() {
             <p className="uppercase md:text-6xl text-3xl font-bold mb-2 text-violet-900">Omowumi OLABISI</p>
           </div>
           <Reveal>
-            <Image src="/Omowumi_OLABISI_photo.jpeg" className="object-cover rounded-full shadow-lg"
+            <Image src="/Omowumi_OLABISI_photo.jpeg" className="object-cover rounded-full shadow-lg m-auto"
               width={320}
               height={500}
               alt="Photo de Omowumi OLABISI, développeuse Web située à Paris" loading="lazy" />

@@ -10,7 +10,9 @@ html {
   margin: 0;
 }
 
-
+body {
+  background: radial-gradient(905px at 4.9% 85.8%, rgb(251, 242, 255) 0.1%, rgb(245, 241, 255) 57.6%);
+}
 
 @layer utilities {
   .text-balance {
@@ -18,6 +20,7 @@ html {
   }
 }
 
-.bg-transparent-blur {
-  background-color: #ffffffaf;
+navbar div.bg-transparent-blur {
+  background-color: #fff0;
+  backdrop-filter: blur(10px);
 }
