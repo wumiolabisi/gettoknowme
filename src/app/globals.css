@@ -8,11 +8,22 @@ html {
   height: 100%;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
   background: radial-gradient(905px at 4.9% 85.8%, rgb(251, 242, 255) 0.1%, rgb(245, 241, 255) 57.6%);
+  cursor: url('/cursor.png'), auto !important;
 }
+
+
+a,
+button,
+input[type="submit"] {
+  cursor: url('/pointer.png'), auto;
+
+}
+
 
 @layer utilities {
   .text-balance {
