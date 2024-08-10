@@ -3,15 +3,17 @@ import Reveal from '../_components/Reveal';
 import Image from 'next/image';
 import Skills from '@/_sections/Skills';
 import Contact from '@/_sections/Contact';
+import GetGitActivity from '@/_api/GetGitActivity';
 
 export default function Home() {
   const theCurrentTime = new Date();
   const getTheHour = theCurrentTime.getHours();
   let isPM = false;
 
-  if (getTheHour > 11) {
+  if (getTheHour > 17) {
     isPM = true;
   }
+
 
   return (
     <>
@@ -38,20 +40,21 @@ export default function Home() {
             </Reveal>
           </div>
           <div className="flex md:flex-row flex-col my-12 items-center gap-2">
-            <Reveal>
-              <h2 className="text-2xl text-violet-900 uppercase">
-                {isPM ? 'Bonsoir' : 'Bonjour'} et bienvenu·e sur mon portfolio !
-              </h2>
-              <p className="text-xl">
-                J'ai passé les derniers mois à travailler mes compétences en développement web. J'ai axé mon apprentissage en autodidacte sur mon employabilité (si tant est que ce mot existe) et je suis prête à rejoindre une agence créative avec des valeurs humaines fortes !
-              </p>
-            </Reveal>
-            <Reveal>
-              <Image src="/Omowumi_OLABISI_photo.jpeg" className="object-cover rounded-full shadow-lg m-auto"
-                width={320}
-                height={500}
-                alt="Photo de Omowumi OLABISI, développeuse Web située à Paris" loading="lazy" />
-            </Reveal>
+            <div className="md:basis-1/3">
+              <Reveal>
+                <h2 className="text-2xl text-violet-900 uppercase">
+                  {isPM ? 'Bonsoir' : 'Bonjour'} et bienvenu·e sur mon portfolio !
+                </h2>
+                <p className="text-base">
+                  J'ai passé les derniers mois à travailler mes compétences en développement web. J'ai axé mon apprentissage en autodidacte sur mon employabilité (si tant est que ce mot existe) et je suis prête à rejoindre une agence créative avec des valeurs humaines fortes !
+                </p>
+              </Reveal>
+            </div>
+            <div className="md:basis-2/3">
+              <Reveal>
+                <GetGitActivity />
+              </Reveal>
+            </div>
           </div>
         </div>
 
@@ -61,7 +64,7 @@ export default function Home() {
           </Reveal>
         </div>
 
-        <div id="contact">
+        <div id="contact" className="py-24">
           <Contact />
         </div>
       </div>
