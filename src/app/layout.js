@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
             </ul>
           </div>
         </navbar>
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+        <main className="flex min-h-screen flex-col items-center justify-between md:p-24 p-16">
           {children}
         </main>
         <footer className="flex flex-row justify-center">

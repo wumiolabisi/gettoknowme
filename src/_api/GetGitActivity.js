@@ -67,7 +67,7 @@ const GetGithubActivity = () => {
             labels,
             datasets: [
                 {
-                    label: 'GitHub Activity',
+                    label: 'Commits',
                     data: activityCounts,
                     borderColor: 'rgba(128, 0, 128, 1)', // Couleur violet foncé pour la ligne
                     backgroundColor: 'rgba(128, 0, 128, 0.2)', // Couleur violet clair pour la zone sous la ligne
@@ -87,7 +87,7 @@ const GetGithubActivity = () => {
     }
 
     return (
-        <div>
+        <div id="gitgraph">
             <h2>Mon activité sur GitHub</h2>
             {activityData ? <Line data={activityData} /> : <p>Pas de données disponibles, désolée.</p>}
             <Link href="https://github.com/wumiolabisi" target="_blank" title="Voir mon activité sur Github.com"><u className="text-xs">Voir sur Github</u></Link>

@@ -34,3 +34,9 @@ navbar div.bg-transparent-blur {
   background-color: #fff0;
   backdrop-filter: blur(10px);
 }
+
+@media (max-width: 640px) {
+  #gitgraph canva {
+    width: 100% !important;
+  }
+}

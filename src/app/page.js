@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Skills from '@/_sections/Skills';
 import Contact from '@/_sections/Contact';
 import GetGitActivity from '@/_api/GetGitActivity';
+import Popdown from '@/_components/Popdown';
 
 export default function Home() {
   const theCurrentTime = new Date();
@@ -23,8 +24,8 @@ export default function Home() {
           <div className="flex flex-col-reverse items-center">
             <Reveal>
               <div className="flex flex-col-reverse items-center">
-                <h1 className="text-3xl text-violet-900">Développeuse Web Fullstack située à Paris et sa région</h1>
-                <p className="uppercase md:text-6xl text-3xl font-bold mb-2 text-violet-900">Omowumi OLABISI</p>
+                <h1 className="text-3xl text-violet-900 text-center">Développeuse Web Fullstack située à Paris et sa région</h1>
+                <p className="uppercase md:text-6xl text-3xl font-bold mb-2 text-violet-900 text-center">Omowumi OLABISI</p>
               </div>
             </Reveal>
             <Reveal>
@@ -39,7 +40,7 @@ export default function Home() {
               <p className="text-2xl text-violet-900/75">NextJS, React, WordPress, PHP, UI/UX et Accessiblité, ThreeJS, Framer Motion</p>
             </Reveal>
           </div>
-          <div className="flex md:flex-row flex-col my-12 items-center gap-8">
+          <div className="flex md:flex-row flex-col md:my-24 items-center gap-8">
             <div className="md:basis-1/3">
               <Reveal>
                 <h2 className="text-2xl text-violet-900 uppercase">
@@ -53,9 +54,9 @@ export default function Home() {
               </Reveal>
             </div>
             <div className="md:basis-2/3">
-              <Reveal>
+              <Popdown delay={0.5}>
                 <GetGitActivity />
-              </Reveal>
+              </Popdown>
             </div>
           </div>
         </div>
