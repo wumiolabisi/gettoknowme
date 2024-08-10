@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Bar } from 'react-chartjs-2';
-import 'chart.js/auto';
+import { Line } from 'react-chartjs-2'; // Importer le type de graphique linéaire
+import 'chart.js/auto'; // Assurez-vous que chart.js est bien importé
+import Link from 'next/link';
 
 const GetGithubActivity = () => {
     const [loading, setLoading] = useState(true);
@@ -10,13 +11,17 @@ const GetGithubActivity = () => {
     useEffect(() => {
         const fetchGithubActivity = async () => {
             try {
-                const response = await fetch('https://api.github.com/users/wumiolabisi/events');
+                const token = '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';
+                const response = await fetch('https://api.github.com/users/wumiolabisi/events?per_page=200', {
+                    headers: {
+                        'Authorization': `token ${token}`
+                    }
+                });
                 if (!response.ok) {
                     throw new Error('Failed to fetch data');
                 }
                 const data = await response.json();
 
-                // Process the data to create a dataset for the chart
                 const processedData = processGithubData(data);
                 setActivityData(processedData);
                 setLoading(false);
@@ -30,20 +35,31 @@ const GetGithubActivity = () => {
         fetchGithubActivity();
     }, []);
 
-    // Function to process the data from the GitHub API
     const processGithubData = (data) => {
         const labels = [];
         const activityCounts = [];
+        const daysAgo = new Date();
+        daysAgo.setDate(daysAgo.getDate() - 60);
 
+        // Générer les labels pour les 60 derniers jours
+        const currentDate = new Date();
+        let datePointer = new Date(daysAgo);
+
+        while (datePointer <= currentDate) {
+            labels.push(datePointer.toISOString().slice(0, 10)); // Format YYYY-MM-DD
+            activityCounts.push(0); // Initialise avec 0
+            datePointer.setDate(datePointer.getDate() + 1); // Passer au jour suivant
+        }
+
+        // Compter les événements par jour
         data.forEach((event) => {
-            const date = new Date(event.created_at).toLocaleDateString();
-            const index = labels.indexOf(date);
-
-            if (index === -1) {
-                labels.push(date);
-                activityCounts.push(1);
-            } else {
-                activityCounts[index]++;
+            const eventDate = new Date(event.created_at);
+            if (eventDate >= daysAgo) {
+                const dateStr = eventDate.toISOString().slice(0, 10); // Format YYYY-MM-DD
+                const index = labels.indexOf(dateStr);
+                if (index !== -1) {
+                    activityCounts[index]++;
+                }
             }
         });
 
@@ -53,26 +69,28 @@ const GetGithubActivity = () => {
                 {
                     label: 'GitHub Activity',
                     data: activityCounts,
-                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                    borderColor: 'rgba(75, 192, 192, 1)',
-                    borderWidth: 1,
+                    borderColor: 'rgba(128, 0, 128, 1)', // Couleur violet foncé pour la ligne
+                    backgroundColor: 'rgba(128, 0, 128, 0.2)', // Couleur violet clair pour la zone sous la ligne
+                    borderWidth: 2,
+                    fill: true, // Remplit la zone sous la ligne
                 },
             ],
         };
     };
 
     if (loading) {
-        return <p>Loading...</p>; // Show loading indicator while fetching data
+        return <p>Chargement...</p>;
     }
 
     if (error) {
-        return <p>{error}</p>; // Show error message if something went wrong
+        return <p>{error}</p>;
     }
 
     return (
         <div>
-            <h2>GitHub Activity</h2>
-            {activityData ? <Bar data={activityData} /> : <p>No data available</p>}
+            <h2>Mon activité sur GitHub</h2>
+            {activityData ? <Line data={activityData} /> : <p>Pas de données disponibles, désolée.</p>}
+            <Link href="https://github.com/wumiolabisi" target="_blank" title="Voir mon activité sur Github.com"><u className="text-xs">Voir sur Github</u></Link>
         </div>
     );
 };

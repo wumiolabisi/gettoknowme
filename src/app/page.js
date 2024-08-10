@@ -39,14 +39,16 @@ export default function Home() {
               <p className="text-2xl text-violet-900/75">NextJS, React, WordPress, PHP, UI/UX et Accessiblité, ThreeJS, Framer Motion</p>
             </Reveal>
           </div>
-          <div className="flex md:flex-row flex-col my-12 items-center gap-2">
+          <div className="flex md:flex-row flex-col my-12 items-center gap-8">
             <div className="md:basis-1/3">
               <Reveal>
                 <h2 className="text-2xl text-violet-900 uppercase">
                   {isPM ? 'Bonsoir' : 'Bonjour'} et bienvenu·e sur mon portfolio !
                 </h2>
-                <p className="text-base">
-                  J'ai passé les derniers mois à travailler mes compétences en développement web. J'ai axé mon apprentissage en autodidacte sur mon employabilité (si tant est que ce mot existe) et je suis prête à rejoindre une agence créative avec des valeurs humaines fortes !
+                <p className="text-base mt-4">
+                  J'ai passé les derniers mois à travailler mes compétences en développement web.</p>
+                <p className="text-base mt-4">
+                  J'ai axé mon apprentissage en autodidacte sur mon employabilité (si tant est que ce mot existe) et je suis prête à rejoindre une agence créative avec des valeurs humaines fortes !
                 </p>
               </Reveal>
             </div>
