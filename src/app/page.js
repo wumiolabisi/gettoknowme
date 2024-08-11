@@ -1,10 +1,10 @@
 'use client';
 import Reveal from '../_components/Reveal';
+import profilPic from '../../public/Omowumi_OLABISI_photo.jpeg';
 import Image from 'next/image';
 import Skills from '@/_sections/Skills';
 import Contact from '@/_sections/Contact';
 import GetGitActivity from '@/_api/GetGitActivity';
-import Popdown from '@/_components/Popdown';
 
 export default function Home() {
   const theCurrentTime = new Date();
@@ -29,10 +29,10 @@ export default function Home() {
               </div>
             </Reveal>
             <Reveal>
-              <Image src="/Omowumi_OLABISI_photo.jpeg" className="object-cover rounded-full shadow-lg m-auto"
+              <Image src={profilPic} className="object-cover rounded-full shadow-lg m-auto  md:mt-16"
                 width={320}
                 height={500}
-                alt="Photo de Omowumi OLABISI, développeuse Web située à Paris" loading="lazy" />
+                alt="Photo de Omowumi OLABISI, développeuse Web située à Paris" loading="lazy" placeholder="blur" />
             </Reveal>
           </div>
           <div className="text-center">
@@ -40,23 +40,23 @@ export default function Home() {
               <p className="text-2xl text-violet-900/75">NextJS, React, WordPress, PHP, UI/UX et Accessiblité, ThreeJS, Framer Motion</p>
             </Reveal>
           </div>
-          <div className="flex md:flex-row flex-col md:my-24 items-center gap-8">
-            <div className="md:basis-1/3">
+          <div className="flex lg:flex-row flex-col md:my-24 items-center gap-8">
+            <div className="lg:basis-1/3">
               <Reveal>
                 <h2 className="text-2xl text-violet-900 uppercase">
-                  {isPM ? 'Bonsoir' : 'Bonjour'} et bienvenu·e sur mon portfolio !
+                  {isPM ? 'Bonsoir' : 'Bonjour'}, je suis prête !
                 </h2>
                 <p className="text-base mt-4">
                   J'ai passé les derniers mois à travailler mes compétences en développement web.</p>
                 <p className="text-base mt-4">
-                  J'ai axé mon apprentissage en autodidacte sur mon employabilité (si tant est que ce mot existe) et je suis prête à rejoindre une agence créative avec des valeurs humaines fortes !
+                  J'ai axé mon apprentissage en <strong>autodidacte</strong> sur mon employabilité (si tant est que ce mot existe) et je suis prête à rejoindre une équipe de développeurs et développeuses créatives !
                 </p>
               </Reveal>
             </div>
-            <div className="md:basis-2/3">
-              <Popdown delay={0.5}>
+            <div className="lg:basis-2/3">
+              <Reveal>
                 <GetGitActivity />
-              </Popdown>
+              </Reveal>
             </div>
           </div>
         </div>

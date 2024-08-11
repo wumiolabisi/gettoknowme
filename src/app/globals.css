@@ -30,13 +30,21 @@ input[type="submit"] {
   }
 }
 
-navbar div.bg-transparent-blur {
+.bg-transparent-blur {
   background-color: #fff0;
   backdrop-filter: blur(10px);
 }
 
-@media (max-width: 640px) {
+.text-xxs {
+  font-size: 10px;
+}
+
+@media (max-width: 768px) {
   #gitgraph canva {
     width: 100% !important;
+  }
+
+  .text-xxs {
+    font-size: 13px;
   }
 }
