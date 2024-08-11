@@ -34,12 +34,12 @@ const Reveal = ({ children }) => {
             </motion.div>
             <motion.div className="rounded-full"
                 variants={{
-                    hidden: { left: 0, opacity: 0.3 },
-                    visible: { left: "100%", opacity: 1 }
+                    hidden: { left: 0, opacity: 0.6 },
+                    visible: { left: "100%", opacity: 0 }
                 }}
                 initial="hidden"
                 animate={slideControls}
-                transition={{ ease: "easeIn", duration: 0.5 }}
+                transition={{ ease: "easeIn", duration: 0.3 }}
                 style={{
                     position: 'absolute',
                     top: 4,

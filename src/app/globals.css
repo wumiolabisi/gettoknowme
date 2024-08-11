@@ -39,10 +39,33 @@ input[type="submit"] {
   font-size: 10px;
 }
 
+.surprise-container {
+  margin-top: 5vh;
+  margin-bottom: 100vh;
+  height: 300vh;
+}
+
+.img-container {
+  width: 25vw;
+  height: 25vh;
+}
+
+.sticky-container {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.el {
+  height: 100%;
+}
+
+.img-el {
+  width: 100%;
+}
+
 @media (max-width: 768px) {
-  #gitgraph canva {
-    width: 100% !important;
-  }
+
 
   .text-xxs {
     font-size: 13px;

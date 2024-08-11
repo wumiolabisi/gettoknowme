@@ -73,7 +73,8 @@ const GetGithubActivity = () => {
                     borderColor: 'rgba(128, 0, 128, 1)', // Couleur violet foncé pour la ligne
                     backgroundColor: 'rgba(128, 0, 128, 0.2)', // Couleur violet clair pour la zone sous la ligne
                     borderWidth: 2,
-                    fill: true, // Remplit la zone sous la ligne
+                    fill: true,
+                    responsive: true
                 },
             ],
         };

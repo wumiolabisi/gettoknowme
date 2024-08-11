@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <body className={shantell_font.className}>
-        <navbar className="flex flex-col justify-around fixed md:left-0 bottom-0 z-10 md:h-screen md:w-auto w-screen">
+        <navbar className="flex flex-col justify-between fixed md:py-4 md:left-0 bottom-0 z-10 md:h-screen md:w-auto w-screen">
           <ul className="flex md:flex-col md:justify-center flex-row md:gap-10 gap-4 rounded-full shadow-lg mx-4 my-2 px-4 py-8 bg-transparent-blur">
             <li className="uppercase mx-auto navbar-item" >
               <Popdown delay={0}>
@@ -54,7 +54,7 @@ export default function RootLayout({ children }) {
               </Popdown>
             </li>
           </ul>
-          <div className="md:flex md:flex-col hidden mx-4 my-2 gap-6 h-96">
+          <div className="md:flex md:flex-col hidden mx-4 my-2 gap-6">
             <Popdown delay={0.6}>
               <a href="https://github.com/wumiolabisi" target="_blank" title="Voir le profil github" alt="Voir le profil github">
                 <Image src="/github.png" width={30} height={30} alt="Logo Github" loading="lazy" className="m-auto" />
@@ -71,9 +71,9 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <footer className="flex flex-row justify-center">
-          <div className="relative h-32 w-32">
-            <div className="absolute inset-x-0 bottom-0 h-16">
-              fOOTER
+          <div className="relative h-32 w-full">
+            <div className="absolute inset-x-0 bottom-0 h-16 text-center text-xxs">
+              Ce site a été créé par Omowumi OLABISI en Août 2024.
             </div>
           </div>
         </footer>
