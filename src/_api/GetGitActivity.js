@@ -11,7 +11,7 @@ const GetGithubActivity = () => {
     useEffect(() => {
         const fetchGithubActivity = async () => {
             try {
-                const token = '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';
+                const token = process.env.GITHUB_TOKEN;
                 const response = await fetch('https://api.github.com/users/wumiolabisi/events?per_page=200', {
                     headers: {
                         'Authorization': `token ${token}`
