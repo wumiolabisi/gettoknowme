@@ -3,6 +3,7 @@ import "./globals.css";
 import Image from "next/image";
 import Reveal from "@/_components/Reveal";
 import Popdown from "@/_components/Popdown";
+import Link from "next/link";
 
 
 const shantell_font = Shantell_Sans({ subsets: ["latin"], weight: ["400"] });
@@ -18,8 +19,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <body className={shantell_font.className}>
-        <navbar className="fixed md:w-auto w-full md:left-0 bottom-0 z-10 md:h-screen">
-          <ul className="flex md:flex-col md:justify-center flex-row gap-4 rounded-full shadow-lg mx-4 my-2 p-4 bg-transparent-blur md:h-96">
+        <navbar className="flex flex-col justify-around fixed md:left-0 bottom-0 z-10 md:h-screen md:w-auto w-screen">
+          <ul className="flex md:flex-col md:justify-center flex-row md:gap-10 gap-4 rounded-full shadow-lg mx-4 my-2 px-4 py-8 bg-transparent-blur">
             <li className="uppercase mx-auto navbar-item" >
               <Popdown delay={0}>
                 <a href="#home" title="Retour à la section Accueil" alt="Retour à la section Accueil">
@@ -53,6 +54,18 @@ export default function RootLayout({ children }) {
               </Popdown>
             </li>
           </ul>
+          <div className="md:flex md:flex-col hidden mx-4 my-2 gap-6 h-96">
+            <Popdown delay={0.6}>
+              <a href="https://github.com/wumiolabisi" target="_blank" title="Voir le profil github" alt="Voir le profil github">
+                <Image src="/github.png" width={30} height={30} alt="Logo Github" loading="lazy" className="m-auto" />
+              </a>
+            </Popdown>
+            <Popdown delay={0.7}>
+              <a href="/CV-Omowumi-OLABISI-Developpeuse-Web.pdf" target="_blank" title="Voir le CV de Omowumi" alt="Voir le CV de Omowumi">
+                <Image src="/download.png" width={20} height={20} alt="CV de Omowumi OLABISI" loading="lazy" className="m-auto" />
+              </a>
+            </Popdown>
+          </div>
         </navbar>
         <main className="flex min-h-screen flex-col items-center justify-between md:p-24 p-16">
           {children}
