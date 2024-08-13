@@ -1,13 +1,16 @@
 import Reveal from "@/_components/Reveal";
 import Image from "next/image";
-import profilPic from '../../public/Omowumi_OLABISI_photo.jpeg';
+import kroskelImg from '../../public/pr-kroskel-home.jpg';
+import page28Img from '../../public/pr-page28-home.jpg';
 import Modal from "@/_components/Modal";
 import { useState } from "react";
 import Kroskel from "./projects/Kroskel";
 import Page28 from "./projects/Page28";
 
 const Projects = () => {
-    const [showModal, setShowModal] = useState(false);
+    const [showModal1, setShowModal1] = useState(false);
+    const [showModal2, setShowModal2] = useState(false);
+
     return (
         <>
             <Reveal>
@@ -17,7 +20,7 @@ const Projects = () => {
                 <Reveal>
                     <div className="shadow-lg p-4 rounded-lg">
                         <article>
-                            <Image src={profilPic} className="object-cover rounded-lg m-auto w-full"
+                            <Image src={page28Img} className="object-cover rounded-lg m-auto w-full"
                                 width={200}
                                 height={200}
                                 alt="Photo de Omowumi OLABISI, développeuse Web située à Paris" loading="lazy" placeholder="blur" />
@@ -29,9 +32,9 @@ const Projects = () => {
                                 <span className="badge rounded-full bg-violet-900 text-white text-sm">Laravel Mix</span>
                             </section>
                             <p className="my-4">Les femmes à l'honneur dans un catalogue de films et séries dédié à leurs &oelig;uvres.</p>
-                            <button className="px-4 py-2 border-b-2 border-solid border-b-violet-900" onClick={() => setShowModal(true)}>Voir plus</button>
-                            {showModal &&
-                                <Modal onClose={() => setShowModal(false)}>
+                            <button className="px-4 py-2 border-b-2 border-solid border-b-violet-900" onClick={() => setShowModal1(true)}>Voir plus</button>
+                            {showModal1 &&
+                                <Modal onClose={() => setShowModal1(false)}>
                                     <Page28 />
                                 </Modal>
                             }
@@ -41,7 +44,7 @@ const Projects = () => {
                 <Reveal>
                     <div className="shadow-lg p-4 rounded-lg">
                         <article>
-                            <Image src={profilPic} className="object-cover rounded-lg m-auto w-full"
+                            <Image src={kroskelImg} className="object-cover rounded-lg m-auto w-full"
                                 width={200}
                                 height={200}
                                 alt="Photo de Omowumi OLABISI, développeuse Web située à Paris" loading="lazy" placeholder="blur" />
@@ -52,10 +55,10 @@ const Projects = () => {
                                 <span className="badge rounded-full bg-violet-900 text-white text-sm">SASS</span>
                                 <span className="badge rounded-full bg-violet-900 text-white text-sm">Laravel Mix</span>
                             </section>
-                            <p className="my-4">Les femmes à l'honneur dans un catalogue de films et séries dédié à leurs &oelig;uvres</p>
-                            <button className="px-4 py-2 border-b-2 border-solid border-b-violet-900" onClick={() => setShowModal(true)}>Voir plus</button>
-                            {showModal &&
-                                <Modal onClose={() => setShowModal(false)}>
+                            <p className="my-4">Une boutique e-commerce pour la marque de vêtements Kroskel.</p>
+                            <button className="px-4 py-2 border-b-2 border-solid border-b-violet-900" onClick={() => setShowModal2(true)}>Voir plus</button>
+                            {showModal2 &&
+                                <Modal onClose={() => setShowModal2(false)}>
                                     <Kroskel />
                                 </Modal>
                             }
