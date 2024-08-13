@@ -32,7 +32,7 @@ const Reveal = ({ children }) => {
             >
                 {children}
             </motion.div>
-            <motion.div className="rounded-full"
+            <motion.div className="rounded-lg"
                 variants={{
                     hidden: { left: 0, opacity: 0.6 },
                     visible: { left: "100%", opacity: 0 }

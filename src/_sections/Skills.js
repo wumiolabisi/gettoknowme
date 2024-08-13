@@ -1,12 +1,6 @@
 'use client';
 import Image from 'next/image';
-import Pic1 from '../../public/code.jpg';
-import Pic2 from '../../public/pizza.jpg';
-import Pic3 from '../../public/3d.jpg';
-import Pic4 from '../../public/rando.jpg';
-import Pic5 from '../../public/montage.jpg';
-import Pic6 from '../../public/music.jpg';
-import Pic7 from '../../public/flaca.jpg';
+import Pic3 from '../../public/Omowumi_OLABISI_photo.jpeg';
 import nuage from '../../public/nuage.png'
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';

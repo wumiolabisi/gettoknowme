@@ -2,6 +2,7 @@ import GetGitActivity from '@/_api/GetGitActivity';
 import Reveal from '@/_components/Reveal';
 import Image from 'next/image';
 import profilPic from '../../public/Omowumi_OLABISI_photo.jpeg';
+import Popdown from '@/_components/Popdown';
 
 const About = () => {
 
@@ -22,12 +23,12 @@ const About = () => {
                         <p className="uppercase md:text-6xl text-3xl font-bold mb-2 text-violet-900 text-center">Omowumi OLABISI</p>
                     </div>
                 </Reveal>
-                <Reveal>
+                <Popdown delay={0}>
                     <Image src={profilPic} className="object-cover rounded-full shadow-lg m-auto"
                         width={320}
                         height={500}
                         alt="Photo de Omowumi OLABISI, développeuse Web située à Paris" loading="lazy" placeholder="blur" />
-                </Reveal>
+                </Popdown>
             </div>
             <div className="text-center">
                 <Reveal>
@@ -37,8 +38,8 @@ const About = () => {
             <div className="flex lg:flex-row flex-col md:my-24 items-center gap-8">
                 <div className="lg:basis-3/6 lg:text-left text-center">
                     <Reveal>
-                        <h2 className="text-2xl text-violet-900 uppercase">
-                            {isPM ? 'Bonsoir' : 'Bonjour'}, je suis à la recherche d'une nouvelle opportunité !
+                        <h2 className="text-2xl text-violet-900">
+                            {isPM ? 'Bonsoir' : 'Bonjour'}, je suis à la recherche d'une nouvelle opportunité professionnelle en région parisienne !
                         </h2>
                         <p className="text-base mt-4">
                             J'ai passé les derniers mois à travailler mes compétences en développement web.</p>

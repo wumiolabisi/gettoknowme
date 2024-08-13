@@ -39,13 +39,21 @@ export default function RootLayout({ children }) {
               <Popdown delay={0.3}>
                 <a href="#projects" title="Retour à la section Projets">
                   <Image src="/bag.png" width={30} height={30} alt="Icône qui représente la section Projets" loading="lazy" className="m-auto" />
+                  <p className="text-xxs my-2 md:inline hidden">Projets</p>
+                </a>
+              </Popdown>
+            </li>
+            <li className="uppercase mx-auto navbar-item" >
+              <Popdown delay={0.4}>
+                <a href="#xp" title="Retour à la section Expériences">
+                  <Image src="/bag.png" width={30} height={30} alt="Icône qui représente la section Projets" loading="lazy" className="m-auto" />
                   <p className="text-xxs my-2 md:inline hidden">Expériences</p>
                 </a>
               </Popdown>
             </li>
             <li className="uppercase mx-auto navbar-item" >
               <Popdown delay={0.5}>
-                <a href="#skills" title="Retour à la section Contact">
+                <a href="#contact" title="Retour à la section Contact">
                   <Image src="/discussion.png" width={30} height={30} alt="Icône qui représente la section Contact" loading="lazy" className="m-auto" />
                   <p className="text-xxs my-2 md:inline hidden">Contact</p>
                 </a>
@@ -75,6 +83,7 @@ export default function RootLayout({ children }) {
             </div>
           </div>
         </footer>
+        <div id="modals"></div>
 
       </body>
     </html>

@@ -9,15 +9,15 @@ export default function Error({ error, reset }) {
     }, [error])
 
     return (
-        <div>
-            <h2>Something went wrong!</h2>
+        <div className='p-24'>
+            <h2 className="uppercase md:text-6xl text-3xl font-bold mb-2 text-violet-900 text-center">Oups ! Une erreur est survenue.</h2>
             <button
                 onClick={
                     // Attempt to recover by trying to re-render the segment
                     () => reset()
                 }
             >
-                Try again
+                Retenter
             </button>
         </div>
     )
