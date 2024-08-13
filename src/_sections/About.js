@@ -49,7 +49,7 @@ const About = () => {
                 </div>
                 <div className="lg:basis-3/6">
                     <Reveal>
-                        <GetGitActivity />
+                        GetGitActivity
                     </Reveal>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import { Line } from 'react-chartjs-2'; // Importer le type de graphique linéai
 import 'chart.js/auto'; // Assurez-vous que chart.js est bien importé
 import Link from 'next/link';
 
-const GetGithubActivity = () => {
+const GetGitActivity = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [activityData, setActivityData] = useState(null);
@@ -97,4 +97,4 @@ const GetGithubActivity = () => {
     );
 };
 
-export default GetGithubActivity;
+export default GetGitActivity;

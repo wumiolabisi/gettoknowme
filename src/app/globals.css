@@ -38,7 +38,6 @@ input[type="submit"] {
 }
 
 .surprise-container {
-  margin-top: 5vh;
   margin-bottom: 100vh;
   height: 300vh;
   position: relative;
@@ -54,59 +53,78 @@ input[type="submit"] {
 /* Centered pic */
 .img-container {
   width: 25vw;
-  height: 25vh;
-  z-index: 11;
+  height: 35vh;
+}
+
+.el:nth-of-type(2) .img-container {
+  top: 15vh;
+  left: 15vw;
+  width: 40vw;
+  height: 40vh;
+}
+
+.el:nth-of-type(3) .img-container {
+  top: 15vh;
+  left: -15vw;
+  width: 35vw;
+  height: 20vh;
 }
 
 /* Pizza */
+/*
 .el:nth-of-type(2) .img-container {
   top: -30vh;
   left: 5vw;
   width: 35vw;
-  height: 42vh;
+  height: 20vh;
 }
-
+*/
 /* 3D */
+/*
 .el:nth-of-type(3) .img-container {
   top: -10vh;
   left: -25vw;
   width: 20vw;
   height: 45vh;
 }
-
+*/
 /* Rando */
+/*
 .el:nth-of-type(4) .img-container {
   top: -30vh;
   left: 27.5vw;
   width: 25vw;
   height: 25vh;
-}
+}*/
 
 /* Montage */
+/*
 .el:nth-of-type(5) .img-container {
   top: 37.5vh;
-  left: 5vw;
-  width: 20vw;
-  height: 25vh;
-}
-
-/* Music */
-.el:nth-of-type(6) .img-container {
-  top: 6.5vh;
-  left: 31.5vw;
+  left: 2vw;
   width: 30vw;
   height: 25vh;
-}
+}*/
 
+/* Music */
+/*
+.el:nth-of-type(6) .img-container {
+  top: 19.5vh;
+  left: 28.5vw;
+  width: 21vw;
+  height: 57vh;
+}
+*/
 /* Ma Flaque */
+/*
 .el:nth-of-type(7) .img-container {
-  top: 22.5vh;
+  top: 37.5vh;
   left: -23vw;
   width: 15vw;
-  height: 15vh;
+  height: 46vh;
 }
 
-
+*/
 
 .sticky-container {
   height: 100vh;
@@ -117,6 +135,10 @@ input[type="submit"] {
 
 .img-el {
   width: 100%;
+}
+
+.badge {
+  padding: 5px 10px;
 }
 
 @media (max-width: 768px) {

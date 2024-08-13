@@ -7,6 +7,7 @@ import Pic4 from '../../public/rando.jpg';
 import Pic5 from '../../public/montage.jpg';
 import Pic6 from '../../public/music.jpg';
 import Pic7 from '../../public/flaca.jpg';
+import nuage from '../../public/nuage.png'
 import { useScroll, useTransform, motion } from 'framer-motion';
 import { useRef } from 'react';
 
@@ -18,52 +19,33 @@ const Skills = () => {
         offset: ['start start', 'end end']
     });
 
-    const scale4 = useTransform(scrollYProgress, [0, 1], [1, 4])
-    const scale5 = useTransform(scrollYProgress, [0, 1], [1, 5])
-    const scale6 = useTransform(scrollYProgress, [0, 1], [1, 6])
-    const scale8 = useTransform(scrollYProgress, [0, 1], [1, 8])
-    const scale9 = useTransform(scrollYProgress, [0, 1], [1, 9])
+    const scaleImg = useTransform(scrollYProgress, [0, 1], [1, 4])
+    const nuageGauche = useTransform(scrollYProgress, [0, 1], [1, 6])
+    const nuageDroit = useTransform(scrollYProgress, [0, 1], [1, 9])
 
     const pictures = [
         {
-            src: Pic1,
-            scale: scale4
-        },
-        {
-            src: Pic2,
-            scale: scale5
-        },
-        {
             src: Pic3,
-            scale: scale6
+            scale: scaleImg
         },
         {
-            src: Pic4,
-            scale: scale4
+            src: nuage,
+            scale: nuageGauche
         },
         {
-            src: Pic5,
-            scale: scale5
-        },
-        {
-            src: Pic6,
-            scale: scale8
-        },
-        {
-            src: Pic7,
-            scale: scale9
+            src: nuage,
+            scale: nuageDroit
         }
     ]
     return (
         <div ref={container} className="surprise-container">
-            <div className="sticky-container md:z-20 z-0 overflow-y-clip">
+            <div className="sticky-container md:z-20 z-0 overflow-hidden">
                 {
                     pictures.map(({ src, scale }, index) => {
                         return <motion.div style={{ scale }} key={index} className="el flex flex-row justify-center items-center">
                             <div className="img-container relative">
-                                <Image src={src} className="object-cover rounded-lg shadow-lg img-el"
-                                    width={320}
-                                    height={500}
+                                <Image src={src} className="img-el"
+                                    fill
                                     alt="Gallerie surprise" loading="lazy" placeholder="blur" />
                             </div>
                         </motion.div>

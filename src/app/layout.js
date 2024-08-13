@@ -65,7 +65,7 @@ export default function RootLayout({ children }) {
             </Popdown>
           </div>
         </nav>
-        <main className="flex min-h-screen flex-col items-center justify-between md:p-24 p-16">
+        <main className="flex min-h-screen flex-col items-center justify-between">
           {children}
         </main>
         <footer className="flex flex-row justify-center">
