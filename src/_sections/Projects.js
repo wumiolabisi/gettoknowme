@@ -20,7 +20,7 @@ const Projects = () => {
     return (
         <>
             <Reveal>
-                <h2 className="uppercase text-5xl font-bold mb-2 text-violet-900 md:text-left text-center">Projets</h2>
+                <h2 className="uppercase md:text-6xl text-4xl font-bold mb-2 text-violet-900 md:text-left text-center">Projets</h2>
             </Reveal>
             <div className="grid md:grid-cols-2 justify-center gap-2 my-10">
                 <Reveal>
@@ -52,11 +52,11 @@ const Projects = () => {
                 <Reveal>
                     <div className="shadow-lg p-4 rounded-lg">
                         <article>
-                            <div className="w-full md:h-60 ">
+                            <div className="w-full md:h-60">
                                 <Image src={webdocImg} className="object-cover object-center rounded-lg m-auto w-full h-full"
-                                    width={300}
-                                    height={400}
-                                    alt="Screenshot du webdoc que j'ai réalisé en local" placeholder="blur" />
+                                    width={1157}
+                                    height={867}
+                                    alt="Screenshot du webdoc que j'ai réalisé" placeholder="blur" />
                             </div>
                             <h3 className="text-3xl font-bold mt-8">MON PREMIER WEBDOC</h3>
                             <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
@@ -116,7 +116,7 @@ const Projects = () => {
                                 <span className="badge rounded-full bg-violet-900 text-white text-sm">Elementor</span>
                                 <span className="badge rounded-full bg-violet-900 text-white text-sm">Intégration</span>
                             </section>
-                            <p className="my-4">Un site vitrine pour l'atelier de céramique Terre Citron.</p>
+                            <p className="my-4">Une boutique et un site vitrine pour donner de la visibilité à l'atelier Terre Citron.</p>
                             <button className="px-4 py-2 border-b-2 border-solid border-b-violet-900 text-violet-900 hover:text-fuchsia-700 hover:border-b-fuchsia-700" onClick={() => setShowModal4(true)}>Voir plus</button>
                             {showModal4 &&
                                 <Modal onClose={() => setShowModal4(false)}>
