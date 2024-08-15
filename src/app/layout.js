@@ -28,17 +28,9 @@ export default function RootLayout({ children }) {
               </Popdown>
             </li>
             <li className="uppercase mx-auto navbar-item" >
-              <Popdown delay={0.1}>
-                <a href="#skills" title="Retour à la section Compétences" >
-                  <Image src="/bulb.png" width={30} height={30} alt="Icône qui représente la section Compétences" loading="lazy" className="m-auto" />
-                  <p className="text-xxs my-2 md:inline hidden">Compétences</p>
-                </a>
-              </Popdown>
-            </li>
-            <li className="uppercase mx-auto navbar-item" >
               <Popdown delay={0.3}>
                 <a href="#projects" title="Retour à la section Projets">
-                  <Image src="/bag.png" width={30} height={30} alt="Icône qui représente la section Projets" loading="lazy" className="m-auto" />
+                  <Image src="/pen.png" width={30} height={30} alt="Icône qui représente la section Projets" loading="lazy" className="m-auto" />
                   <p className="text-xxs my-2 md:inline hidden">Projets</p>
                 </a>
               </Popdown>

@@ -8,7 +8,7 @@ const Experiences = () => {
             </Reveal>
             <Reveal>
                 <article className="my-10 pb-10 border-b-2 border-solid border-b-violet-300">
-                    <h3 className="text-xl text-violet-500"><strong>Webmaster</strong> chez Solocal Marketing Services</h3>
+                    <h3 className="text-xl text-fuchsia-700"><strong>Webmaster</strong> chez Solocal Marketing Services</h3>
                     <p className="text-violet-900 text-xl">1 an (2023-2024)</p>
                     <p className="mt-4">J'ai mené à terme plus de 30 projets de créations de sites vitrines et e-commerce. Du brief client à la livraison de la solution finale,
                         mon rôle était de m'assurer que les client·es aient un site personnalisé et optimisé afin d'améliorer leur visibilité.
@@ -25,13 +25,13 @@ const Experiences = () => {
 
             <Reveal>
                 <article className="my-10 pb-10 border-b-2 border-solid border-b-violet-300">
-                    <h3 className="text-xl text-violet-500"><strong>Développeuse FullStack WordPress</strong> chez Kroskel</h3>
+                    <h3 className="text-xl text-fuchsia-700"><strong>Développeuse FullStack WordPress</strong> chez Kroskel</h3>
                     <p className="text-violet-900 text-xl">2 ans (2021-2023)</p>
                     <p className="mt-4">J'ai mis en place la boutique en ligne de la marque Kroskel de A à Z.
-                        Accompagnée par une petite équipe passionnée de mode, je suis intervenue sur toutes les étapes :
+                        Accompagnée par la petite équipe de la maison, je suis intervenue sur toutes les étapes de mise en place du site :
                         conception, maquettage, développement, maintenance. Ayant développée de nombreuses compétences transverses grâce à mes
-                        projets personnels, j'ai également été chargée de créer du contenu pour les startégie de communication : retouches photo,
-                        montage vidéos, newsletters responsives...
+                        projets personnels, j'ai également été chargée de créer du contenu pour les stratégies de communication : retouches photo,
+                        montage vidéos, newsletters responsives, etc.
 
                     </p>
                     <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">

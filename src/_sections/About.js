@@ -32,7 +32,7 @@ const About = () => {
             </div>
             <div className="text-center">
                 <Reveal>
-                    <p className="text-2xl text-violet-900/75">NextJS, React, WordPress, PHP, UI/UX et Accessiblité, ThreeJS, Framer Motion</p>
+                    <p className="text-2xl text-fuchsia-700">NextJS, React, WordPress, PHP, UI/UX et Accessiblité, ThreeJS, Framer Motion</p>
                 </Reveal>
             </div>
             <div className="flex lg:flex-row flex-col md:my-24 items-center gap-8">
