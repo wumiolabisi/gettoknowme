@@ -15,8 +15,8 @@ const Webdoc = () => {
                 </div>
                 <h3 className="text-xl font-bold my-4">Réalisation d&apos;un portfolio sous forme de diapositives interactives</h3>
                 <ul>
-                    <li className="mb-2"><span className="badge rounded-full bg-violet-900 text-white text-sm">CODE SOURCE</span> <Link href="https://github.com/wumiolabisi/portfolio-webdoc" title="Rendez-vous sur mon compte Github pour voir le code source" alt="Cliquez ici pour accéder au site code source" className="hover:text-fuchsia-700">github.com/wumiolabisi/portfolio-webdoc</Link></li>
-                    <li className="mb-2"><span className="badge rounded-full bg-violet-900 text-white text-sm">STACK</span> NextJS, ReactJS, ThreeJS, TailWindCSS</li>
+                    <li className="mb-2"><span className="badge rounded-full bg-gray-500 text-white text-sm">CODE SOURCE</span> <Link href="https://github.com/wumiolabisi/portfolio-webdoc" title="Rendez-vous sur mon compte Github pour voir le code source" alt="Cliquez ici pour accéder au site code source" className="hover:text-fuchsia-700">github.com/wumiolabisi/portfolio-webdoc</Link></li>
+                    <li className="mb-2"><span className="badge rounded-full bg-gray-500 text-white text-sm">STACK</span> NextJS, ReactJS, ThreeJS, TailWindCSS</li>
                 </ul>
                 <p className="my-4">
                     Le webdocumentaire est un médium qui fait appel à de nombreux métiers créatifs et techniques. C&apos;est cette diversité de compétences qui me fascine !

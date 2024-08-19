@@ -4,8 +4,6 @@
 
 body,
 html {
-  background: radial-gradient(905px at 4.9% 85.8%, rgb(251, 242, 255) 0.1%, rgb(245, 241, 255) 57.6%);
-  cursor: url('/cursor.png'), auto !important;
   width: 100%;
   height: 100%;
   padding: 0;
@@ -14,12 +12,7 @@ html {
 }
 
 
-a,
-button,
-input[type="submit"] {
-  cursor: url('/pointer.png'), auto;
 
-}
 
 
 @layer utilities {
@@ -31,6 +24,12 @@ input[type="submit"] {
 .bg-transparent-blur {
   background-color: #fff0;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+.box-shadow-custom {
+  box-shadow: 1px 5px 15px #111114;
+
 }
 
 .text-xxs {

@@ -15,9 +15,9 @@ const Page28 = () => {
                 </div>
                 <h3 className="text-xl font-bold my-4">Conception et développement du catalogue de films PAGE 28</h3>
                 <ul>
-                    <li className="mb-2"><span className="badge rounded-full bg-violet-900 text-white text-sm">ADRESSE</span> <Link href="https://page28.fr" title="Rendez-vous sur le site Page28" alt="Cliquez ici pour accéder au site page28.fr" className="hover:text-fuchsia-700">page28.fr</Link></li>
-                    <li className="mb-2"><span className="badge rounded-full bg-violet-900 text-white text-sm">STACK</span> WordPress, PHP, Javascript, SASS</li>
-                    <li><span className="badge rounded-full bg-violet-900 text-white text-sm">CODE SOURCE</span> https://github.com/wumiolabisi/page28-wp-theme</li>
+                    <li className="mb-2"><span className="badge rounded-full bg-gray-500 text-white text-sm">ADRESSE</span> <Link href="https://page28.fr" title="Rendez-vous sur le site Page28" alt="Cliquez ici pour accéder au site page28.fr" className="hover:text-fuchsia-700">page28.fr</Link></li>
+                    <li className="mb-2"><span className="badge rounded-full bg-gray-500 text-white text-sm">STACK</span> WordPress, PHP, Javascript, SASS</li>
+                    <li><span className="badge rounded-full bg-gray-900 text-white text-sm">CODE SOURCE</span> https://github.com/wumiolabisi/page28-wp-theme</li>
                 </ul>
                 <p className="my-4">
                     Page28 est un <strong>catalogue cinématographique numérique engagé</strong> qui souhaite mettre en avant le travail des

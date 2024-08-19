@@ -46,7 +46,7 @@ const Reveal = ({ children }) => {
                     bottom: 4,
                     left: 0,
                     right: 0,
-                    background: '#4c1d95',
+                    background: '#feffe6',
                     zIndex: 2
                 }} />
         </div>

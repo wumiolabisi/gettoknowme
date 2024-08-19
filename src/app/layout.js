@@ -1,9 +1,9 @@
-import { Shantell_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/_components/Navbar";
 
 
-const shantell_font = Shantell_Sans({ subsets: ["latin"], weight: ["400"] });
+const inter_font = Inter({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata = {
   title: "Omowumi OLABISI, développeuse Web front et back située à Paris",
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="fr">
-      <body className={shantell_font.className}>
+      <body className={`${inter_font.className} bg-zinc-800 text-white`}>
         <Navbar />
         <main className="flex min-h-screen flex-col items-center justify-between">
           {children}
@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <footer className="flex flex-row justify-center  md:mb-0 mb-10">
           <div className="relative h-32 w-full">
             <div className="absolute inset-x-0 bottom-0 h-16 text-center text-xxs">
-              The end.
+              Portfolio créé par Omowumi OLABISI
             </div>
           </div>
         </footer>

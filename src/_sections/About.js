@@ -1,7 +1,6 @@
-import GetGitActivity from '@/_api/GetGitActivity';
 import Reveal from '@/_components/Reveal';
 import Image from 'next/image';
-import profilPic from '../../public/Omowumi_OLABISI_photo.jpeg';
+import profilPic from '../../public/Omowumi_OLABISI_photo.png';
 import Popdown from '@/_components/Popdown';
 
 const About = () => {
@@ -19,26 +18,26 @@ const About = () => {
             <div className="flex flex-col-reverse items-center">
                 <Reveal>
                     <div className="flex flex-col-reverse items-center">
-                        <h1 className="text-3xl text-violet-900 text-center">Développeuse Web Fullstack | Paris et sa région</h1>
-                        <p className="uppercase md:text-6xl text-4xl font-bold mb-2 text-violet-900 text-center">Omowumi OLABISI</p>
+                        <h1 className="text-3xl text-white text-center">Développeuse Web Fullstack | Paris et région</h1>
+                        <p className="uppercase md:text-6xl text-4xl font-bold mb-2 text-white text-center">Omowumi OLABISI</p>
                     </div>
                 </Reveal>
                 <Popdown delay={0}>
                     <Image src={profilPic} className="object-cover rounded-full shadow-lg m-auto"
-                        width={320}
-                        height={500}
+                        width={310}
+                        height={323}
                         alt="Photo de Omowumi OLABISI, développeuse Web située à Paris" loading="lazy" placeholder="blur" />
                 </Popdown>
             </div>
             <div className="text-center">
                 <Reveal>
-                    <p className="text-2xl text-fuchsia-700">NextJS, React, WordPress, PHP, UI/UX et Accessiblité, ThreeJS, Framer Motion</p>
+                    <p className="text-2xl text-slate-300">NextJS, React, WordPress, PHP, UI/UX et Accessiblité, ThreeJS, Framer Motion</p>
                 </Reveal>
             </div>
             <div className="flex lg:flex-row flex-col my-16 md:px-0 px-4 items-center gap-8">
                 <div className="lg:basis-3/6 lg:text-left text-center">
                     <Reveal>
-                        <h2 className="text-2xl text-violet-900">
+                        <h2 className="text-2xl text-white">
                             {isPM ? 'Bonsoir' : 'Bonjour'}, je suis à la recherche d&apos;une nouvelle opportunité professionnelle en région parisienne !
                         </h2>
                         <p className="text-base mt-4">
@@ -50,14 +49,14 @@ const About = () => {
                 </div>
                 <div className="lg:basis-3/6">
                     <Reveal>
-                        <GetGitActivity />
+
                     </Reveal>
                 </div>
             </div>
 
             <div>
                 <Reveal>
-                    <h2 className="uppercase md:text-6xl text-4xl font-bold mb-2 text-violet-900 md:text-left text-center">A propos de moi</h2>
+                    <h2 className="uppercase md:text-6xl text-4xl font-bold mb-2 text-white md:text-left text-center">A propos de moi</h2>
                 </Reveal>
 
                 <div className="flex md:flex-row flex-col justify-center items-center gap-4">
@@ -75,26 +74,26 @@ const About = () => {
                         <h3 className='font-bold'>Regardez tout ce que je peux faire !</h3>
                         <Reveal>
                             <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
-                                <span className="badge rounded-full bg-violet-900 text-white text-sm">WordPress</span>
-                                <span className="badge rounded-full bg-violet-900 text-white text-sm">WooCommerce</span>
-                                <span className="badge rounded-full bg-violet-900 text-white text-sm">Elementor</span>
-                                <span className="badge rounded-full bg-violet-900 text-white text-sm">ACF</span>
-                                <span className="badge rounded-full bg-violet-700 text-white text-sm">NextJS</span>
-                                <span className="badge rounded-full bg-violet-700 text-white text-sm">ReactJS</span>
-                                <span className="badge rounded-full bg-violet-700 text-white text-sm">ThreeJS</span>
-                                <span className="badge rounded-full bg-violet-700 text-white text-sm">TailWindCSS</span>
-                                <span className="badge rounded-full bg-violet-700 text-white text-sm">Bootstrap</span>
-                                <span className="badge rounded-full bg-violet-500 text-white text-sm">Git</span>
-                                <span className="badge rounded-full bg-violet-500 text-white text-sm">Intégration e-mailing</span>
-                                <span className="badge rounded-full bg-violet-500 text-white text-sm">DUDA</span>
-                                <span className="badge rounded-full bg-fuchsia-700 text-white text-sm">Optimisation SEO</span>
-                                <span className="badge rounded-full bg-fuchsia-700 text-white text-sm">Accessiblité RGAA</span>
-                                <span className="badge rounded-full bg-fuchsia-700 text-white text-sm">Relation client</span>
-                                <span className="badge rounded-full bg-fuchsia-700 text-white text-sm">Autodidacte</span>
-                                <span className="badge rounded-full bg-fuchsia-500 text-white text-sm">Autonomie</span>
-                                <span className="badge rounded-full bg-fuchsia-500 text-white text-sm">A l&apos;écoute</span>
-                                <span className="badge rounded-full bg-fuchsia-500 text-white text-sm">Pédagogie</span>
-                                <span className="badge rounded-full bg-fuchsia-500 text-white text-sm">Fondant au chocolat</span>
+                                <span className="badge rounded-full bg-gray-900 text-white text-sm">WordPress</span>
+                                <span className="badge rounded-full bg-gray-900 text-white text-sm">WooCommerce</span>
+                                <span className="badge rounded-full bg-gray-900 text-white text-sm">Elementor</span>
+                                <span className="badge rounded-full bg-gray-900 text-white text-sm">ACF</span>
+                                <span className="badge rounded-full bg-gray-700 text-white text-sm">NextJS</span>
+                                <span className="badge rounded-full bg-gray-700 text-white text-sm">ReactJS</span>
+                                <span className="badge rounded-full bg-gray-700 text-white text-sm">ThreeJS</span>
+                                <span className="badge rounded-full bg-gray-700 text-white text-sm">TailWindCSS</span>
+                                <span className="badge rounded-full bg-gray-700 text-white text-sm">Bootstrap</span>
+                                <span className="badge rounded-full bg-gray-500 text-white text-sm">Git</span>
+                                <span className="badge rounded-full bg-gray-500 text-white text-sm">Intégration e-mailing</span>
+                                <span className="badge rounded-full bg-gray-500 text-white text-sm">DUDA</span>
+                                <span className="badge rounded-full bg-slate-700 text-white text-sm">Optimisation SEO</span>
+                                <span className="badge rounded-full bg-slate-700 text-white text-sm">Accessiblité RGAA</span>
+                                <span className="badge rounded-full bg-slate-700 text-white text-sm">Relation client</span>
+                                <span className="badge rounded-full bg-slate-700 text-white text-sm">Autodidacte</span>
+                                <span className="badge rounded-full bg-slate-500 text-white text-sm">Autonomie</span>
+                                <span className="badge rounded-full bg-slate-500 text-white text-sm">A l&apos;écoute</span>
+                                <span className="badge rounded-full bg-slate-500 text-white text-sm">Pédagogie</span>
+                                <span className="badge rounded-full bg-slate-500 text-white text-sm">Fondant au chocolat</span>
                             </section>
                         </Reveal>
                     </div>
