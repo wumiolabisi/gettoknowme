@@ -44,7 +44,7 @@ const About = () => {
                         <p className="text-base mt-4">
                             J&apos;ai passé les derniers mois à travailler mes compétences en <strong>développement web</strong>.</p>
                         <p className="text-base mt-4">
-                            J&apos;ai axé mon apprentissage en <strong>autodidacte</strong> sur mon employabilité et je suis prête à rejoindre une entreprise créative.
+                            J&paos;ai appris le développement web avec des projets personnels et en entreprise ! Je suis prête à rejoindre une entreprise créative.
                         </p>
                     </Reveal>
                 </div>
@@ -66,7 +66,7 @@ const About = () => {
                             (oui, j&apos;ai passé des heures à construire des maisons et des vies de rêve). </p>
                             <p className="mt-4">J&apos;ai grandi à Montreuil et, après quelques escapades en dehors de la région,
                                 me voilà de retour pour travailler sur ce que j&apos;aime. Je suis spécialisée dans la <strong>création de sites sur mesure</strong> et l&apos;optimisation SEO. </p>
-                            <p className="mt-4">En dehors du boulot, je m&apos;amuse avec les Sims 3, la modélisation 3D, l&apos;animation et le montage vidéo, et je compose des musiques assistées par ordinateur. </p>
+                            <p className="mt-4">En dehors du boulot, je m&apos;amuse avec la modélisation 3D, l&apos;animation et le montage vidéo, et je compose des musiques assistées par ordinateur. </p>
                             <p className="my-4">Bref, je jongle entre les lignes de code et les notes de musique. Si vous cherchez quelqu&apos;un qui allie technique et créativité,
                                 je suis disponible pour discuter !</p>
                         </Reveal>
