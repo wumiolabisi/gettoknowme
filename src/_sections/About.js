@@ -38,7 +38,7 @@ const About = () => {
                         <Reveal>  <p className="mt-4">Je suis une développeuse web, je créé des sites et applications sur mesure avec NextJS, WordPress ou encore en full HTML5/CSS3. </p>
                             <p className="mt-4">J&apos;ai grandi à Montreuil et, après quelques escapades en dehors de la région,
                                 me voilà de retour pour travailler sur ce que j&apos;aime. Je suis spécialisée dans la <strong>création de sites sur mesure</strong> et l&apos;optimisation SEO. </p>
-                            <p className="mt-4">En dehors du boulot, je m&apos;amuse avec la modélisation 3D, l&apos;animation et le montage vidéo, et je compose des musiques assistées par ordinateur. Ces projets personnels me permettent de faire preuve d'initiative et de créativité dans les projets professionnels qui me sont confiés </p>
+                            <p className="mt-4">En dehors du boulot, je m&apos;amuse avec la modélisation 3D, l&apos;animation et le montage vidéo, et je compose des musiques assistées par ordinateur. Ces projets personnels me permettent de faire preuve d&apos;initiative et de créativité dans les projets professionnels qui me sont confiés </p>
                             <p className="my-4">Bref, je jongle entre les lignes de code et les notes de musique. Si vous cherchez quelqu&apos;un qui allie technique et créativité,
                                 je suis disponible pour discuter !</p>
                         </Reveal>
