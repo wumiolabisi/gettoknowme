@@ -44,7 +44,7 @@ const About = () => {
                         <p className="text-base mt-4">
                             J&apos;ai passé les derniers mois à travailler mes compétences en <strong>développement web</strong>.</p>
                         <p className="text-base mt-4">
-                            J&paos;ai appris le développement web avec des projets personnels et en entreprise ! Je suis prête à rejoindre une entreprise créative.
+                            J&apos;ai appris le développement web avec des projets personnels et en entreprise ! Je suis prête à rejoindre une entreprise créative.
                         </p>
                     </Reveal>
                 </div>
