@@ -15,7 +15,7 @@ const TerreCitron = () => {
                 </div>
                 <h3 className="text-xl font-bold my-4">Création de la vitrine de l&apos;atelier Terre Citron</h3>
                 <ul>
-                    <li className="mb-2"><span className="badge rounded-full bg-gray-500 text-white text-sm">ADRESSE</span> <Link href="https://terrecitron.fr" title="Rendez-vous sur le site de l'atelier" alt="Cliquez ici pour accéder au site terre citron" className="hover:text-fuchsia-700">terrecitron.fr</Link></li>
+                    <li className="mb-2"><span className="badge rounded-full bg-gray-500 text-white text-sm">ADRESSE</span> <Link href="https://terrecitron.fr" target="_blank" title="Rendez-vous sur le site de l'atelier" alt="Cliquez ici pour accéder au site terre citron" className="hover:text-fuchsia-700">terrecitron.fr</Link></li>
                     <li className="mb-2"><span className="badge rounded-full bg-gray-500 text-white text-sm">STACK</span> WordPress, Elementor, Intégration</li>
                 </ul>
                 <p className="my-4">

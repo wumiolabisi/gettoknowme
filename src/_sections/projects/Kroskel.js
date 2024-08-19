@@ -17,7 +17,7 @@ const Kroskel = () => {
                 </div>
                 <h3 className="text-xl font-bold my-4">Conception, développement et maintenance de la boutique Kroskel</h3>
                 <ul>
-                    <li className="mb-2"><span className="badge rounded-full bg-gray-500 text-white text-sm">ADRESSE</span> <Link href="https://kroskel.com" title="Rendez-vous sur la boutique Kroskel" alt="Cliquez ici pour accéder au site kroskel.fr" className="hover:text-fuchsia-700">kroskel.com</Link></li>
+                    <li className="mb-2"><span className="badge rounded-full bg-gray-500 text-white text-sm">ADRESSE</span> <Link href="https://kroskel.com" target="_blank" title="Rendez-vous sur la boutique Kroskel" alt="Cliquez ici pour accéder au site kroskel.fr" className="hover:text-fuchsia-700">kroskel.com</Link></li>
                     <li className="mb-2"><span className="badge rounded-full bg-gray-500 text-white text-sm">STACK</span> WordPress, PHP, Javascript, HTML5/CSS3</li>
                 </ul>
                 <p className="my-4">
