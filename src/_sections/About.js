@@ -39,12 +39,12 @@ const About = () => {
                 <div className="lg:basis-3/6 lg:text-left text-center">
                     <Reveal>
                         <h2 className="text-2xl text-violet-900">
-                            {isPM ? 'Bonsoir' : 'Bonjour'}, je suis à la recherche d'une nouvelle opportunité professionnelle en région parisienne !
+                            {isPM ? 'Bonsoir' : 'Bonjour'}, je suis à la recherche d&apos;une nouvelle opportunité professionnelle en région parisienne !
                         </h2>
                         <p className="text-base mt-4">
-                            J'ai passé les derniers mois à travailler mes compétences en <strong>développement web</strong>.</p>
+                            J&apos;ai passé les derniers mois à travailler mes compétences en <strong>développement web</strong>.</p>
                         <p className="text-base mt-4">
-                            J'ai axé mon apprentissage en <strong>autodidacte</strong> sur mon employabilité et je suis prête à rejoindre une entreprise créative.
+                            J&apos;ai axé mon apprentissage en <strong>autodidacte</strong> sur mon employabilité et je suis prête à rejoindre une entreprise créative.
                         </p>
                     </Reveal>
                 </div>
@@ -62,12 +62,12 @@ const About = () => {
 
                 <div className="flex md:flex-row flex-col justify-center items-center gap-4">
                     <div className="md:w-3/5">
-                        <Reveal>  <p className="mt-4">Moi c'est Omowumi, je suis une développeuse web et une grande passionnée des Sims 3
-                            (oui, j'ai passé des heures à construire des maisons et des vies de rêve). </p>
-                            <p className="mt-4">J'ai grandi à Montreuil et, après quelques escapades en dehors de la région,
-                                me voilà de retour pour travailler sur ce que j'aime. Je suis spécialisée dans la <strong>création de sites sur mesure</strong> et l'optimisation SEO. </p>
-                            <p className="mt-4">En dehors du boulot, je m'amuse avec les Sims 3, la modélisation 3D, l'animation et le montage vidéo, et je compose des musiques assistées par ordinateur. </p>
-                            <p className="my-4">Bref, je jongle entre les lignes de code et les notes de musique. Si vous cherchez quelqu'un qui allie technique et créativité,
+                        <Reveal>  <p className="mt-4">Moi c&apos;est Omowumi, je suis une développeuse web et une grande passionnée des Sims 3
+                            (oui, j&apos;ai passé des heures à construire des maisons et des vies de rêve). </p>
+                            <p className="mt-4">J&apos;ai grandi à Montreuil et, après quelques escapades en dehors de la région,
+                                me voilà de retour pour travailler sur ce que j&apos;aime. Je suis spécialisée dans la <strong>création de sites sur mesure</strong> et l&apos;optimisation SEO. </p>
+                            <p className="mt-4">En dehors du boulot, je m&apos;amuse avec les Sims 3, la modélisation 3D, l&apos;animation et le montage vidéo, et je compose des musiques assistées par ordinateur. </p>
+                            <p className="my-4">Bref, je jongle entre les lignes de code et les notes de musique. Si vous cherchez quelqu&apos;un qui allie technique et créativité,
                                 je suis disponible pour discuter !</p>
                         </Reveal>
                     </div>
@@ -92,7 +92,7 @@ const About = () => {
                                 <span className="badge rounded-full bg-fuchsia-700 text-white text-sm">Relation client</span>
                                 <span className="badge rounded-full bg-fuchsia-700 text-white text-sm">Autodidacte</span>
                                 <span className="badge rounded-full bg-fuchsia-500 text-white text-sm">Autonomie</span>
-                                <span className="badge rounded-full bg-fuchsia-500 text-white text-sm">A l'écoute</span>
+                                <span className="badge rounded-full bg-fuchsia-500 text-white text-sm">A l&apos;écoute</span>
                                 <span className="badge rounded-full bg-fuchsia-500 text-white text-sm">Pédagogie</span>
                                 <span className="badge rounded-full bg-fuchsia-500 text-white text-sm">Fondant au chocolat</span>
                             </section>

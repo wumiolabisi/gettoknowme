@@ -21,7 +21,7 @@ const Page28 = () => {
                 </ul>
                 <p className="my-4">
                     Page28 est un <strong>catalogue cinématographique numérique engagé</strong> qui souhaite mettre en avant le travail des
-                    femmes du cinéma. Imaginé par la réalisatrice Anne ROUX, ce projet a débuté durant l'été 2023.
+                    femmes du cinéma. Imaginé par la réalisatrice Anne ROUX, ce projet a débuté durant l&apos;été 2023.
                     Je continue de travailler activement sur ce projet, et le contenu du catalogue est en cours de mise à jour.
                 </p>
                 <div className="relative my-10" >
@@ -32,7 +32,7 @@ const Page28 = () => {
                     <li>Conception des <strong>maquettes avec Photoshop et Penpot</strong></li>
                     <li>Développement du thème sur mesure avec PHP, SASS et HTML</li>
                     <li>Laravel Mix pour optimiser les fichiers js et css</li>
-                    <li>Mise en place d'un <strong>système de filtrage avec AJAX</strong></li>
+                    <li>Mise en place d&apos;un <strong>système de filtrage avec AJAX</strong></li>
                 </ul>
 
             </article>

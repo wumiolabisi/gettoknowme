@@ -10,8 +10,8 @@ const Experiences = () => {
                 <article className="my-10 pb-10 border-b-2 border-solid border-b-violet-300">
                     <h3 className="text-xl text-fuchsia-700"><strong>Webmaster</strong> chez Solocal Marketing Services</h3>
                     <p className="text-violet-900 text-xl">1 an (2023-2024)</p>
-                    <p className="mt-4">J'ai mené à terme plus de <strong>30 sites vitrines et e-commerce</strong>. Du brief client à la livraison de la solution finale,
-                        mon rôle était de m'assurer que les client·es aient un site personnalisé et optimisé afin d'améliorer leur visibilité.
+                    <p className="mt-4">J&apos;ai mené à terme plus de <strong>30 sites vitrines et e-commerce</strong>. Du brief client à la livraison de la solution finale,
+                        mon rôle était de m&apos;assurer que les client·es aient un site personnalisé et optimisé afin d&apos;améliorer leur visibilité.
                     </p>
                     <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
                         <span className="badge rounded-full bg-violet-900 text-white text-sm">Intégration</span>
@@ -27,10 +27,10 @@ const Experiences = () => {
                 <article className="my-10 pb-10 border-b-2 border-solid border-b-violet-300">
                     <h3 className="text-xl text-fuchsia-700"><strong>Développeuse FullStack WordPress</strong> chez Kroskel</h3>
                     <p className="text-violet-900 text-xl">2 ans (2021-2023)</p>
-                    <p className="mt-4">J'ai mis en place la <strong>boutique en ligne</strong> de la marque Kroskel de A à Z.
+                    <p className="mt-4">J&apos;ai mis en place la <strong>boutique en ligne</strong> de la marque Kroskel de A à Z.
                         Accompagnée par la petite équipe de la maison, je suis intervenue sur toutes les étapes de mise en place du site :
                         conception, maquettage, développement, maintenance. Ayant développée de nombreuses compétences transverses grâce à mes
-                        projets personnels, j'ai également été chargée de créer du contenu pour les stratégies de communication : retouches photo,
+                        projets personnels, j&apos;ai également été chargée de créer du contenu pour les stratégies de communication : retouches photo,
                         montage vidéos, newsletters responsives, etc.
 
                     </p>

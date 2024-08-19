@@ -39,7 +39,7 @@ const Projects = () => {
                                 <span className="badge rounded-full bg-violet-900 text-white text-sm">SASS</span>
                                 <span className="badge rounded-full bg-violet-900 text-white text-sm">Laravel Mix</span>
                             </section>
-                            <p className="my-4">Les femmes à l'honneur dans un catalogue de films et séries dédié à leurs &oelig;uvres.</p>
+                            <p className="my-4">Les femmes à l&apos;honneur dans un catalogue de films et séries dédié à leurs &oelig;uvres.</p>
                             <button className="px-4 py-2 border-b-2 border-solid border-b-violet-900 text-violet-900 hover:text-fuchsia-700 hover:border-b-fuchsia-700" onClick={() => setShowModal1(true)}>Voir plus</button>
                             {showModal1 &&
                                 <Modal onClose={() => setShowModal1(false)}>
@@ -116,7 +116,7 @@ const Projects = () => {
                                 <span className="badge rounded-full bg-violet-900 text-white text-sm">Elementor</span>
                                 <span className="badge rounded-full bg-violet-900 text-white text-sm">Intégration</span>
                             </section>
-                            <p className="my-4">Une boutique et un site vitrine pour donner de la visibilité à l'atelier Terre Citron.</p>
+                            <p className="my-4">Une boutique et un site vitrine pour donner de la visibilité à l&apos;atelier Terre Citron.</p>
                             <button className="px-4 py-2 border-b-2 border-solid border-b-violet-900 text-violet-900 hover:text-fuchsia-700 hover:border-b-fuchsia-700" onClick={() => setShowModal4(true)}>Voir plus</button>
                             {showModal4 &&
                                 <Modal onClose={() => setShowModal4(false)}>

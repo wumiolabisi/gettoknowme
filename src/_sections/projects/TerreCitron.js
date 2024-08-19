@@ -13,13 +13,13 @@ const TerreCitron = () => {
                         height={400}
                         alt="Bannière présentant le site de l'atelier Terre Citron" placeholder="blur" />
                 </div>
-                <h3 className="text-xl font-bold my-4">Création de la vitrine de l'atelier Terre Citron</h3>
+                <h3 className="text-xl font-bold my-4">Création de la vitrine de l&apos;atelier Terre Citron</h3>
                 <ul>
                     <li className="mb-2"><span className="badge rounded-full bg-violet-900 text-white text-sm">ADRESSE</span> <Link href="https://terrecitron.fr" title="Rendez-vous sur le site de l'atelier" alt="Cliquez ici pour accéder au site terre citron" className="hover:text-fuchsia-700">terrecitron.fr</Link></li>
                     <li className="mb-2"><span className="badge rounded-full bg-violet-900 text-white text-sm">STACK</span> WordPress, Elementor, Intégration</li>
                 </ul>
                 <p className="my-4">
-                    J'ai mis en place le site de l'atelier de céramique Terre Citron. Après avoir initialement conçu une <strong>boutique en ligne</strong>,
+                    J&apos;ai mis en place le site de l&apos;atelier de céramique Terre Citron. Après avoir initialement conçu une <strong>boutique en ligne</strong>,
                     nous avons simplifié le site pour réduire la maintenance, permettant à la gérante de se concentrer sur son art et son entreprise.
 
                 </p>

@@ -22,9 +22,9 @@ const Kroskel = () => {
                 </ul>
                 <p className="my-4">
                     Kroskel est une marque de vêtements franco-camerounaise créé en 2015 par Ornella Djoukui.
-                    Pour améliorer la visibilité en ligne, elle m'a confié la conception et la mise en place de sa
-                    <strong>boutique en ligne et d'un blog</strong>.
-                    L'un des plus grands défis durant cette expérience était de respecter les délais courts de livraison.
+                    Pour améliorer la visibilité en ligne, elle m&apos;a confié la conception et la mise en place de sa
+                    <strong>boutique en ligne et d&apos;un blog</strong>.
+                    L&apos;un des plus grands défis durant cette expérience était de respecter les délais courts de livraison.
                 </p>
                 <div className="relative my-10" >
                     <Image src={Mockup1} className="object-cover mb-2 rounded-lg" width="100%" height="auto" alt="Image de la page d'accueil du site kroskel.com" loading="lazy" placeholder="blur" />
@@ -33,8 +33,8 @@ const Kroskel = () => {
                 <ul className='list-disc ps-8'>
                     <li>Mise en place du site de A à Z : de la conception à la mise en place du thème avec <strong>Elementor et HTML5/CSS3/JS</strong></li>
                     <li>Maintenance de la boutique : corrections des bugs, installations et mises à jour des plugins</li>
-                    <li>SEO : Mise en place d'une stratégie SEO pour chaque page produit + mise en place d'un blog</li>
-                    <li>Autres compétences mise en oeuvre durant cette expérience : <strong>intégration d'emails</strong> et suivi de campagne avec The Newsletter Plugin, montages vidéo pour la stratégie de communication</li>
+                    <li>SEO : Mise en place d&apos;une stratégie SEO pour chaque page produit + mise en place d&apos;un blog</li>
+                    <li>Autres compétences mise en oeuvre durant cette expérience : <strong>intégration d&apos;emails</strong> et suivi de campagne avec The Newsletter Plugin, montages vidéo pour la stratégie de communication</li>
                 </ul>
 
                 <section className="flex flex-row gap-4 justify-center my-10 flex-wrap">
