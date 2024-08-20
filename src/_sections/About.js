@@ -44,11 +44,13 @@ const About = () => {
                     <h2 className="uppercase md:text-6xl text-4xl font-bold mb-2 text-white md:text-left text-center">&Agrave; propos de moi</h2>
                 </Reveal>
 
-                <div className="flex md:flex-row flex-col justify-center items-center gap-4">
+                <div className="flex md:flex-row flex-col justify-center items-center gap-8">
                     <div className="md:w-3/5 font-thin">
                         <Reveal>
-                            <p className="mt-4">Je souhaite intégrer une entreprise qui m&apos;offrira des challenges techniques et qui me permettra d&apos;évoluer en tant que développeuse web Full Stack. </p>
-                            <p className="mt-4">En dehors du travail, je m&apos;amuse avec la modélisation 3D, l&apos;animation et le montage vidéo, et je compose des musiques assistées par ordinateur. Ces projets personnels me permettent de faire preuve d&apos;initiative et de créativité dans les projets professionnels qui me sont confiés.</p>
+                            <p>Je souhaite intégrer une entreprise qui m&apos;offrira des challenges techniques et qui me permettra d&apos;évoluer en tant que développeuse web Full Stack. </p>
+                            <p className="mt-4">En dehors du travail, je m&apos;amuse avec la modélisation 3D, l&apos;animation et le montage vidéo,
+                                et je compose des musiques assistées par ordinateur.</p>
+                            <p className="mt-4">Ces projets personnels me permettent de faire preuve d&apos;initiative et de créativité dans les projets professionnels qui me sont confiés.</p>
 
                         </Reveal>
                     </div>
