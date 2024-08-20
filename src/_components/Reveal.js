@@ -34,7 +34,7 @@ const Reveal = ({ children }) => {
             </motion.div>
             <motion.div className="rounded-lg"
                 variants={{
-                    hidden: { left: 0, opacity: 0.6 },
+                    hidden: { left: 0, opacity: 1 },
                     visible: { left: "100%", opacity: 0 }
                 }}
                 initial="hidden"
@@ -46,7 +46,7 @@ const Reveal = ({ children }) => {
                     bottom: 4,
                     left: 0,
                     right: 0,
-                    background: '#feffe6',
+                    background: '#86efac',
                     zIndex: 2
                 }} />
         </div>

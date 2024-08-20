@@ -9,12 +9,12 @@ const Navbar = () => {
 
     return (
         <nav className="flex flex-col justify-between fixed md:py-4 md:left-0 bottom-0 z-10 md:h-screen md:w-auto w-screen">
-            <ul className="flex md:flex-col md:justify-center flex-row md:gap-10 gap-4 rounded-full shadow-lg mx-4 my-2 px-4 py-8 bg-transparent-blur box-shadow-custom">
+            <ul className="flex md:flex-col md:justify-center flex-row md:gap-10 gap-4 rounded-full shadow-lg mx-4 my-2 px-4 py-8 bg-transparent-blur box-shadow-custom-static">
                 <li className="uppercase mx-auto navbar-item">
                     <Popdown delay={0}>
                         <a href="#home" title="Retour à la section Accueil">
                             <Image src="/about.png" width={30} height={30} alt="Icône qui représente la section Accueil" loading="lazy" className="m-auto" />
-                            <p className="text-xxs my-2 md:inline hidden">A propos</p>
+                            <p className="text-xxs my-2 md:inline hidden hover:text-green-300 transition-all duration-200">A propos</p>
                         </a>
                     </Popdown>
                 </li>
@@ -22,7 +22,7 @@ const Navbar = () => {
                     <Popdown delay={0.3}>
                         <a href="#projects" title="Retour à la section Projets">
                             <Image src="/projects.png" width={30} height={30} alt="Icône qui représente la section Projets" loading="lazy" className="m-auto" />
-                            <p className="text-xxs my-2 md:inline hidden">Projets</p>
+                            <p className="text-xxs my-2 md:inline hidden hover:text-green-300 transition-all duration-200">Projets</p>
                         </a>
                     </Popdown>
                 </li>
@@ -30,7 +30,7 @@ const Navbar = () => {
                     <Popdown delay={0.4}>
                         <a href="#xp" title="Retour à la section Expériences">
                             <Image src="/works.png" width={30} height={30} alt="Icône qui représente la section Projets" loading="lazy" className="m-auto" />
-                            <p className="text-xxs my-2 md:inline hidden">Expériences</p>
+                            <p className="text-xxs my-2 md:inline hidden hover:text-green-300 transition-all duration-200">Expériences</p>
                         </a>
                     </Popdown>
                 </li>
@@ -38,7 +38,7 @@ const Navbar = () => {
                     <Popdown delay={0.5}>
                         <a href="#contact" title="Retour à la section Contact">
                             <Image src="/contact.png" width={30} height={30} alt="Icône qui représente la section Contact" loading="lazy" className="m-auto" />
-                            <p className="text-xxs my-2 md:inline hidden">Contact</p>
+                            <p className="text-xxs my-2 md:inline hidden hover:text-green-300 transition-all duration-200">Contact</p>
                         </a>
                     </Popdown>
                 </li>

@@ -27,8 +27,20 @@ html {
   -webkit-backdrop-filter: blur(10px) !important;
 }
 
+.box-shadow-custom-static {
+  box-shadow: 1px 5px 15px #111114;
+
+}
+
 .box-shadow-custom {
   box-shadow: 1px 5px 15px #111114;
+  transition: all;
+  transition-duration: 0.5s;
+
+}
+
+.box-shadow-custom:hover {
+  box-shadow: 1px 2px 10px #5e9e7a;
 
 }
 

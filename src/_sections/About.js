@@ -11,7 +11,7 @@ const About = () => {
                 <Reveal>
                     <div className="flex flex-col-reverse items-center mt-10">
                         <h1 className="text-3xl text-white text-center">Développeuse Web Full stack | Paris et région</h1>
-                        <p className="uppercase text-4xl font-bold mb-2 text-white text-center">Omowumi OLABISI</p>
+                        <p className="uppercase text-4xl font-bold mb-2 text-center">Omowumi OLABISI</p>
                     </div>
                 </Reveal>
                 <Popdown delay={0}>
@@ -23,7 +23,18 @@ const About = () => {
             </div>
             <div className="text-center">
                 <Reveal>
-                    <p className="text-2xl text-slate-300">WordPress, PHP, NextJS, React, NodeJS, ThreeJS, Framer Motion, SEO, UI/UX, RGAA</p>
+                    <p className="text-xl text-green-300 mb-4">NextJS, ReactJS, ThreeJS, Framer Motion, WordPress, Javascript, SASS/LESS, SEO/SEA, RGAA, UI/UX</p>
+                </Reveal>
+            </div>
+            <div className="text-center  md:w-3/4 md:mx-auto">
+                <Reveal>
+                    <p className="text-xl font-light">Avec plus de trois années d'expériences dans le développement web, je souhaite continuer à réaliser des solutions webs auprès de collaborateurs·ices qui souhaitent avoir un impact réel dans le monde numérique.</p>
+                </Reveal>
+            </div>
+            <div className="text-center mt-10 mb-24 md:w-3/4 md:mx-auto">
+
+                <Reveal>
+                    <a href="#contact" className="rounded-full px-10 py-4 uppercase border-2 border-solid border-green-300 bg-green-300 text-gray-800 hover:bg-transparent hover:text-green-300 hover:border-green-300 transition-all duration-300">Contactez-moi</a>
                 </Reveal>
             </div>
 
@@ -34,40 +45,42 @@ const About = () => {
                 </Reveal>
 
                 <div className="flex md:flex-row flex-col justify-center items-center gap-4">
-                    <div className="md:w-3/5">
-                        <Reveal>  <p className="mt-4">Je suis une développeuse web, je créé des sites et applications sur mesure avec NextJS, WordPress ou encore en full HTML5/CSS3. </p>
+                    <div className="md:w-3/5 font-thin">
+                        <Reveal>
                             <p className="mt-4">J&apos;ai grandi à Montreuil et, après quelques escapades en dehors de la région,
-                                me voilà de retour pour travailler sur ce que j&apos;aime. Je suis spécialisée dans la <strong>création de sites sur mesure</strong> et l&apos;optimisation SEO. </p>
-                            <p className="mt-4">En dehors du boulot, je m&apos;amuse avec la modélisation 3D, l&apos;animation et le montage vidéo, et je compose des musiques assistées par ordinateur. Ces projets personnels me permettent de faire preuve d&apos;initiative et de créativité dans les projets professionnels qui me sont confiés </p>
-                            <p className="my-4">Bref, je jongle entre les lignes de code et les notes de musique. Si vous cherchez quelqu&apos;un qui allie technique et créativité,
+                                me voilà de retour pour travailler sur ce que j&apos;aime. Je souhaite intégrer une entreprise qui m'offrira des challenges techniques et qui me permettra d'évoluer en tant que développeuse web Full Stack. </p>
+                            <p className="mt-4">En dehors du travail, je m&apos;amuse avec la modélisation 3D, l&apos;animation et le montage vidéo, et je compose des musiques assistées par ordinateur. Ces projets personnels me permettent de faire preuve d&apos;initiative et de créativité dans les projets professionnels qui me sont confiés.</p>
+                            <p className="my-4">Bref, je jongle entre les lignes de code et les notes de musique. Si vous cherchez un profil polyvalent et motivé,
                                 je suis disponible pour discuter !</p>
                         </Reveal>
                     </div>
                     <div className="md:w-2/5">
-                        <h3 className='font-bold'>Compétences en développement web, en frameworks frontend et transverses</h3>
+                        <h3 className='font-bold '>Compétences en développement web, en frameworks frontend et transverses</h3>
                         <Reveal>
                             <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
-                                <span className="badge rounded-full bg-gray-900 text-white text-sm">WordPress</span>
-                                <span className="badge rounded-full bg-gray-900 text-white text-sm">WooCommerce</span>
-                                <span className="badge rounded-full bg-gray-900 text-white text-sm">Elementor</span>
-                                <span className="badge rounded-full bg-gray-900 text-white text-sm">ACF</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">NextJS</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">ReactJS</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">ThreeJS</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">Javascript</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">JQuery</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">TailWindCSS</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">Bootstrap</span>
-                                <span className="badge rounded-full bg-gray-500 text-white text-sm">Git</span>
-                                <span className="badge rounded-full bg-gray-500 text-white text-sm">Intégration e-mailing</span>
-                                <span className="badge rounded-full bg-gray-500 text-white text-sm">DUDA</span>
-                                <span className="badge rounded-full bg-slate-700 text-white text-sm">Optimisation SEO</span>
-                                <span className="badge rounded-full bg-slate-700 text-white text-sm">Accessiblité RGAA</span>
-                                <span className="badge rounded-full bg-slate-700 text-white text-sm">Relation client</span>
-                                <span className="badge rounded-full bg-slate-700 text-white text-sm">Autodidacte</span>
-                                <span className="badge rounded-full bg-slate-500 text-white text-sm">Autonomie</span>
-                                <span className="badge rounded-full bg-slate-500 text-white text-sm">A l&apos;écoute</span>
-                                <span className="badge rounded-full bg-slate-500 text-white text-sm">Pédagogie</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-base">NextJS</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-base">ReactJS</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-base">ThreeJS</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-base">Jest</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-base">TailWindCSS</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-base">Javascript</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-base">SASS/LESS</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-base">PHP</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-base">HTML5</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-base">CSS3</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">JQuery</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Bootstrap</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">WordPress</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">GitHub</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Agile</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-xs">UI/UX</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-xs">Optimisation SEO</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-xs">Accessiblité RGAA</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-xs">Autodidacte</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-xs">Autonomie</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-xs">A l&apos;écoute</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-xs">Pédagogie</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-xs">Travail en équipe</span>
                             </section>
                         </Reveal>
                     </div>

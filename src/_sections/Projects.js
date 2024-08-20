@@ -1,7 +1,7 @@
 import Reveal from "@/_components/Reveal";
 import Image from "next/image";
 import kroskelImg from '../../public/pr-kroskel-banner.jpg';
-import page28Img from '../../public/pr-page28-thumbnail.jpg';
+import page28Img from '../../public/pr-page28-thumbnail.png';
 import webdocImg from '../../public/pr-webdoc-banner.jpg';
 import terreCitronImg from '../../public/pr-terrecitron-banner.jpg';
 import Modal from "@/_components/Modal";
@@ -27,21 +27,26 @@ const Projects = () => {
                     <div className="shadow-lg p-4 rounded-lg box-shadow-custom">
                         <article className="cursor-pointer" onClick={() => setShowModal1(true)}>
                             <div className="w-full md:h-60">
-                                <Image src={page28Img} className="object-cover object-center rounded-lg m-auto w-full h-full"
+                                <Image src={page28Img} className="object-cover object-top rounded-lg m-auto w-full h-full"
                                     width={300}
                                     height={400}
                                     alt="Site web Page 28 sous forme de mockup" loading="lazy" placeholder="blur" />
                             </div>
                             <h3 className="text-3xl font-bold mt-8">PAGE 28</h3>
                             <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">WordPress</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">PHP</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">SASS</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">Laravel Mix</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">WordPress</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">PHP</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">SASS</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Javascript</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">JQuery</span>
                             </section>
-                            <p className="my-4">Les femmes à l&apos;honneur dans un catalogue de films et séries dédié à leurs &oelig;uvres.</p>
-                            <button className="px-4 py-2 border-b-2 border-solid border-b-white text-white hover:text-gray-300 hover:border-b-gray-300" >Voir plus</button>
-
+                            <p className="my-4 font-thin">Les femmes à l&apos;honneur dans un catalogue de films et séries dédié à leurs &oelig;uvres.</p>
+                            <ul className='list-disc ps-8 font-thin'>
+                                <li>Suivi des étapes de développement et réunions hebdomadaires pour assurer la progression.</li>
+                                <li>Conception d'interfaces adaptées à tous les écrans.</li>
+                                <li>Utilisation de Laravel Mix pour minimiser les fichiers et SASS pour éviter la redondance CSS.</li>
+                                <li>Implémentation d'AJAX pour le filtrage des films sans rechargement de page.</li>
+                            </ul>
                         </article>
                         {showModal1 &&
                             <Modal onClose={() => setShowModal1(false)}>
@@ -61,14 +66,18 @@ const Projects = () => {
                             </div>
                             <h3 className="text-3xl font-bold mt-8">MON PREMIER WEBDOC</h3>
                             <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">Next</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">React</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">Three</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">TailWind</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">NextJS</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">ReactJS</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">ThreeJS</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">TailWindCSS</span>
                             </section>
-                            <p className="my-4">Un portfolio sous forme de diapositives interactives, inspiré des webdocumentaires.</p>
-                            <button className="px-4 py-2 border-b-2 border-solid border-b-white text-white hover:text-gray-300 hover:border-b-gray-300" onClick={() => setShowModal3(true)}>Voir plus</button>
-
+                            <p className="my-4 font-thin">Un portfolio sous forme de diapositives interactives, inspiré des webdocumentaires.</p>
+                            <ul className='list-disc ps-8 font-thin'>
+                                <li>Développement d'un système de navigation utilisant les événements de clavier.</li>
+                                <li>Intégration de vidéos et de pistes audio synchronisées avec des animations 3D.</li>
+                                <li>Création d'un système de particules avec Three.js.</li>
+                                <li>Structuration du projet avec React et Next.js pour la gestion du routage et du rendu côté serveur.</li>
+                            </ul>
                         </article>
                         {showModal3 &&
                             <Modal onClose={() => setShowModal3(false)}>
@@ -88,13 +97,14 @@ const Projects = () => {
                             </div>
                             <h3 className="text-3xl font-bold mt-8">KROSKEL</h3>
                             <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">WordPress</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">PHP</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">SASS</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">Laravel Mix</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">WordPress</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">PHP</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Javascript</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">JQuery</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">CSS</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">HTML</span>
                             </section>
                             <p className="my-4">Une boutique e-commerce pour la marque de vêtements Kroskel.</p>
-                            <button className="px-4 py-2 border-b-2 border-solid border-b-white text-white hover:text-gray-300 hover:border-b-gray-300" onClick={() => setShowModal2(true)}>Voir plus</button>
 
                         </article>
                         {showModal2 &&
@@ -115,13 +125,13 @@ const Projects = () => {
                             </div>
                             <h3 className="text-3xl font-bold mt-8">TERRE CITRON</h3>
                             <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">WordPress</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">Elementor</span>
-                                <span className="badge rounded-full bg-gray-700 text-white text-sm">Intégration</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">WordPress</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">PHP</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Javascript</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">CSS</span>
+                                <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">HTML</span>
                             </section>
                             <p className="my-4">Une boutique et un site vitrine pour donner de la visibilité à l&apos;atelier Terre Citron.</p>
-                            <button className="px-4 py-2 border-b-2 border-solid border-b-white text-white hover:text-gray-300 hover:border-b-gray-300" onClick={() => setShowModal4(true)}>Voir plus</button>
-
                         </article>
                         {showModal4 &&
                             <Modal onClose={() => setShowModal4(false)}>

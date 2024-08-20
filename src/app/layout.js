@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/_components/Navbar";
 
 
-const inter_font = Inter({ subsets: ["latin"], weight: ["400"] });
+const inter_font = Inter({ subsets: ["latin"], weight: ["200", "400", "800"] });
 
 export const metadata = {
   title: "Omowumi OLABISI, développeuse Web front et back située à Paris",
