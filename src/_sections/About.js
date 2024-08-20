@@ -41,14 +41,14 @@ const About = () => {
 
             <div className='my-16'>
                 <Reveal>
-                    <h2 className="uppercase md:text-6xl text-4xl font-bold mb-2 text-white md:text-left text-center">A propos de moi</h2>
+                    <h2 className="uppercase md:text-6xl text-4xl font-bold mb-2 text-white md:text-left text-center">&Agrave; propos de moi</h2>
                 </Reveal>
 
                 <div className="flex md:flex-row flex-col justify-center items-center gap-4">
                     <div className="md:w-3/5 font-thin">
                         <Reveal>
                             <p className="mt-4">J&apos;ai grandi à Montreuil et, après quelques escapades en dehors de la région,
-                                me voilà de retour pour travailler sur ce que j&apos;aime. Je souhaite intégrer une entreprise qui m'offrira des challenges techniques et qui me permettra d'évoluer en tant que développeuse web Full Stack. </p>
+                                me voilà de retour pour travailler sur ce que j&apos;aime. Je souhaite intégrer une entreprise qui m&apos;offrira des challenges techniques et qui me permettra d&apos;évoluer en tant que développeuse web Full Stack. </p>
                             <p className="mt-4">En dehors du travail, je m&apos;amuse avec la modélisation 3D, l&apos;animation et le montage vidéo, et je compose des musiques assistées par ordinateur. Ces projets personnels me permettent de faire preuve d&apos;initiative et de créativité dans les projets professionnels qui me sont confiés.</p>
                             <p className="my-4">Bref, je jongle entre les lignes de code et les notes de musique. Si vous cherchez un profil polyvalent et motivé,
                                 je suis disponible pour discuter !</p>

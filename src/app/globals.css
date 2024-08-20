@@ -44,6 +44,11 @@ html {
 
 }
 
+.mask-link:hover {
+  /*-webkit-mask-image: url(star.svg);
+  mask-image: url(star.svg);*/
+}
+
 .text-xxs {
   font-size: 10px;
 }
