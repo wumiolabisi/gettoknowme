@@ -28,7 +28,7 @@ const About = () => {
             </div>
             <div className="text-center  md:w-3/4 md:mx-auto">
                 <Reveal>
-                    <p className="text-xl font-light">Avec plus de trois années d'expériences dans le développement web, je souhaite continuer à réaliser des solutions webs auprès de collaborateurs·ices qui souhaitent avoir un impact réel dans le monde numérique.</p>
+                    <p className="text-xl font-light">Avec plus de trois années d&apos;expériences dans le développement web, je souhaite continuer à réaliser des solutions webs auprès de collaborateurs·ices qui souhaitent avoir un impact réel dans le monde numérique.</p>
                 </Reveal>
             </div>
             <div className="text-center mt-10 mb-24 md:w-3/4 md:mx-auto">
