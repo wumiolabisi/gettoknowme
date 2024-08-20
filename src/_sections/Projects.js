@@ -43,9 +43,9 @@ const Projects = () => {
                             <p className="my-4 font-thin">Les femmes à l&apos;honneur dans un catalogue de films et séries dédié à leurs &oelig;uvres.</p>
                             <ul className='list-disc ps-8 font-thin'>
                                 <li>Suivi des étapes de développement et réunions hebdomadaires pour assurer la progression.</li>
-                                <li>Conception d'interfaces adaptées à tous les écrans.</li>
+                                <li>Conception d&apos;interfaces adaptées à tous les écrans.</li>
                                 <li>Utilisation de Laravel Mix pour minimiser les fichiers et SASS pour éviter la redondance CSS.</li>
-                                <li>Implémentation d'AJAX pour le filtrage des films sans rechargement de page.</li>
+                                <li>Implémentation d&apos;AJAX pour le filtrage des films sans rechargement de page.</li>
                             </ul>
                         </article>
                         {showModal1 &&
@@ -73,9 +73,9 @@ const Projects = () => {
                             </section>
                             <p className="my-4 font-thin">Un portfolio sous forme de diapositives interactives, inspiré des webdocumentaires.</p>
                             <ul className='list-disc ps-8 font-thin'>
-                                <li>Développement d'un système de navigation utilisant les événements de clavier.</li>
+                                <li>Développement d&apos;un système de navigation utilisant les événements de clavier.</li>
                                 <li>Intégration de vidéos et de pistes audio synchronisées avec des animations 3D.</li>
-                                <li>Création d'un système de particules avec Three.js.</li>
+                                <li>Création d&apos;un système de particules avec Three.js.</li>
                                 <li>Structuration du projet avec React et Next.js pour la gestion du routage et du rendu côté serveur.</li>
                             </ul>
                         </article>

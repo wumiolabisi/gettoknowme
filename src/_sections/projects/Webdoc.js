@@ -27,11 +27,11 @@ const Webdoc = () => {
                 </p>
                 <h3 className="font-bold">Points clés de ce projet</h3>
                 <ul className='list-disc ps-8 font-thin'>
-                    <li><strong>Navigation intuitive :</strong> Après des essais avec le scroll, j'ai finalement implémenté une navigation basée sur les touches du clavier, offrant une expérience fluide rappelant une série de diapositives.</li>
-                    <li><strong>Exploration et apprentissage :</strong> J'ai approfondi mes connaissances en Framer Motion en étudiant la documentation officielle et divers tutoriels pour maîtriser les animations et les transitions.</li>
-                    <li><strong>Compatibilité multi-navigateurs :</strong> Consciente des limitations de certaines fonctionnalités JS sur différents navigateurs, j'ai mis en place des solutions de secours, comme des images par défaut pour remplacer les vidéos non supportées.</li>
-                    <li><strong>Intégration 3D immersive :</strong> Le système de particules dans la section "Compétences" a été conçu avec Three.js.</li>
-                    <li><strong>Sélection d'outils adaptés :</strong> J'ai utilisé React et Next.js pour structurer le projet afin d'avoir une architecture solide et facilement maintenable.</li>
+                    <li><strong>Navigation intuitive :</strong> Après des essais avec le scroll, j&apos;ai finalement implémenté une navigation basée sur les touches du clavier, offrant une expérience fluide rappelant une série de diapositives.</li>
+                    <li><strong>Exploration et apprentissage :</strong> J&apos;ai approfondi mes connaissances en Framer Motion en étudiant la documentation officielle et divers tutoriels pour maîtriser les animations et les transitions.</li>
+                    <li><strong>Compatibilité multi-navigateurs :</strong> Consciente des limitations de certaines fonctionnalités JS sur différents navigateurs, j&apos;ai mis en place des solutions de secours, comme des images par défaut pour remplacer les vidéos non supportées.</li>
+                    <li><strong>Intégration 3D immersive :</strong> Le système de particules dans la section Compétences a été conçu avec Three.js.</li>
+                    <li><strong>Sélection d&apos;outils adaptés :</strong> J&apos;ai utilisé React et Next.js pour structurer le projet afin d&apos;avoir une architecture solide et facilement maintenable.</li>
                     <li><strong>Expérience utilisateur immersive :</strong> Chaque section du webdoc a été conçue pour offrir une immersion totale, alliant vidéo, son, et interaction 3D, le tout en respectant les bonnes pratiques du développement web.</li>
                 </ul>
                 <div className="relative my-10" >

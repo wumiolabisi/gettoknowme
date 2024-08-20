@@ -27,13 +27,13 @@ const Page28 = () => {
                 <h3 className="font-bold">Points clés de ce projet</h3>
                 <ul className='list-disc ps-8 font-thin'>
                     <li><strong>Gestion du projet avec JIRA :</strong> Suivi des étapes de développement et réunions hebdomadaires pour assurer la progression.</li>
-                    <li><strong>Conception <em>Mobile first</em> :</strong> Conception d'interfaces adaptées à tous les écrans.</li>
+                    <li><strong>Conception <em>Mobile first</em> :</strong> Conception d&apos;interfaces adaptées à tous les écrans.</li>
                     <li><strong>Personnalisation des templates PHP :</strong> Création de templates PHP pour personnaliser la mise en page en accord avec les maquettes.</li>
                     <li><strong>Optimisation des performances :</strong> Utilisation de Laravel Mix pour minimiser les fichiers et SASS pour éviter la redondance CSS.</li>
                     <li><strong>SEO et accessibilité :</strong> Mise en place de bonnes pratiques pour les contenus textuels et images : contraste de couleurs, hiérarchie des contenus, balises alt, etc.</li>
                     <li><strong>Optimisation des images :</strong> Respect des meilleures pratiques avec des images de moins de 100Ko, format JPG ou WebP privilégiés.</li>
-                    <li><strong>Système de filtrage dynamique :</strong> Implémentation d'AJAX pour le filtrage des films sans rechargement de page.</li>
-                    <li><strong>Documentation interne :</strong> Création d'un fichier de suivi détaillant la nomenclature des classes CSS et autres conventions de développement pour assurer la cohérence du projet.</li>
+                    <li><strong>Système de filtrage dynamique :</strong> Implémentation d&apos;AJAX pour le filtrage des films sans rechargement de page.</li>
+                    <li><strong>Documentation interne :</strong> Création d&apos;un fichier de suivi détaillant la nomenclature des classes CSS et autres conventions de développement pour assurer la cohérence du projet.</li>
                 </ul>
                 <div className="relative my-10" >
                     <Image src={Mockup} className="object-cover mb-2 rounded-lg" width="100%" height="auto" alt="Image de la page du catalogue du site Page28.fr" loading="lazy" placeholder="blur" />
