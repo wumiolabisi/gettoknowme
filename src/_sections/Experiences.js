@@ -45,7 +45,7 @@ const Experiences = () => {
             <Reveal>
                 <article className="my-10 pb-10 border-b-2 border-solid border-b-gray-700">
                     <h3 className="text-xl"><strong>Développeuse Emailing</strong> chez Numberly</h3>
-                    <p className="text-green-300 text-lg">2 ans (2016-2019) - Paris, Dubaï</p>
+                    <p className="text-green-300 text-lg">3 ans (2016-2019) - Paris, Dubaï</p>
                     <p className="mt-4">Chez Numberly, j&apos;ai acquis trois ans d&apos;expérience en tant que développeuse emailing,
                         dont deux en alternance.
                         J&apos;ai développé des campagnes d&apos;emailing personnalisées en utilisant HTML et CSS.

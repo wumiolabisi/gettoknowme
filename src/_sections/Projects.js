@@ -40,13 +40,14 @@ const Projects = () => {
                                 <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Javascript</span>
                                 <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">JQuery</span>
                             </section>
-                            <p className="my-4 font-thin text-sm">Les femmes à l&apos;honneur dans un catalogue de films et séries dédié à leurs &oelig;uvres.</p>
-                            <ul className='list-disc ps-8 font-thin text-sm'>
-                                <li>Suivi des étapes de développement et réunions hebdomadaires pour assurer la progression.</li>
-                                <li>Conception d&apos;interfaces adaptées à tous les écrans.</li>
-                                <li>Utilisation de Laravel Mix pour minimiser les fichiers et SASS pour éviter la redondance CSS.</li>
-                                <li>Implémentation d&apos;AJAX pour le filtrage des films sans rechargement de page.</li>
+                            <p className="my-4 font-thin md:text-sm">Les femmes à l&apos;honneur dans un catalogue de films et séries dédié à leurs &oelig;uvres.</p>
+                            <ul className='list-disc ps-8 font-thin md:text-sm'>
+                                <li>Conception mobile-first, interfaces adaptées à tous les écrans.</li>
+                                <li>Utilisation de Laravel Mix pour optimiser les fichiers JS et CSS.</li>
+                                <li>AJAX pour le filtrage des films sans rechargement de page.</li>
+                                <li>...</li>
                             </ul>
+                            <p className="font-thin mt-4 text-green-400 hover:font-bold">Lire plus ►</p>
                         </article>
                         {showModal1 &&
                             <Modal onClose={() => setShowModal1(false)}>
@@ -71,13 +72,14 @@ const Projects = () => {
                                 <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">ThreeJS</span>
                                 <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">TailWindCSS</span>
                             </section>
-                            <p className="my-4 font-thin text-sm">Un portfolio sous forme de diapositives interactives, inspiré des webdocumentaires.</p>
-                            <ul className='list-disc ps-8 font-thin text-sm'>
-                                <li>Développement d&apos;un système de navigation utilisant les événements de clavier.</li>
-                                <li>Intégration de vidéos et de pistes audio synchronisées avec des animations 3D.</li>
+                            <p className="my-4 font-thin md:text-sm">Un portfolio sous forme de diapositives interactives, inspiré des webdocumentaires.</p>
+                            <ul className='list-disc ps-8 font-thin md:text-sm'>
+                                <li>Structuration du projet avec Next.js pour la gestion du routage.</li>
+                                <li>Implémentation d&apos;une navigation utilisant les événements clavier.</li>
                                 <li>Création d&apos;un système de particules avec Three.js.</li>
-                                <li>Structuration du projet avec React et Next.js pour la gestion du routage et du rendu côté serveur.</li>
+                                <li>...</li>
                             </ul>
+                            <p className="font-thin mt-4 text-green-400 hover:font-bold">Lire plus ►</p>
                         </article>
                         {showModal3 &&
                             <Modal onClose={() => setShowModal3(false)}>
@@ -104,13 +106,14 @@ const Projects = () => {
                                 <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">HTML</span>
                                 <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">SEO</span>
                             </section>
-                            <p className="my-4 font-thin text-sm">Une boutique e-commerce pour la marque de vêtements Kroskel.</p>
-                            <ul className='list-disc ps-8 font-thin text-sm'>
-                                <li>Création d&apos;un thème personnalisé en utilisant PHP et Elementor, JavaScript, CSS3, et HTML5.</li>
-                                <li>Intégration d&apos;une boutique en ligne avec WooCommerce.</li>
-                                <li>Recherche et intégration de mots-clés pertinents avec suivi régulier des performances SEO.</li>
-                                <li>Implémentation de nouvelles fonctionnalités et améliorations continues.</li>
+                            <p className="my-4 font-thin md:text-sm">Faire connaître la marque Kroskel en ligne avec une solution e-commerce fiable.</p>
+                            <ul className='list-disc ps-8 font-thin md:text-sm'>
+                                <li>Implémentation de la boutique avec WordPress et WooCommerce.</li>
+                                <li>Analyse et intégration de mots-clés, suivi des performances SEO.</li>
+                                <li>Maintenance, mise à jour et améliorations continues.</li>
+                                <li>...</li>
                             </ul>
+                            <p className="font-thin mt-4 text-green-400 hover:font-bold">Lire plus ►</p>
                         </article>
                         {showModal2 &&
                             <Modal onClose={() => setShowModal2(false)}>
@@ -136,13 +139,15 @@ const Projects = () => {
                                 <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">CSS</span>
                                 <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">HTML</span>
                             </section>
-                            <p className="my-4 font-thin text-sm">Une boutique et un site vitrine pour donner de la visibilité à l&apos;atelier Terre Citron.</p>
-                            <ul className='list-disc ps-8 font-thin text-sm'>
+                            <p className="my-4 font-thin md:text-sm">Une boutique et un site vitrine pour donner de la visibilité à l&apos;atelier Terre Citron.</p>
+                            <ul className='list-disc ps-8 font-thin md:text-sm'>
                                 <li>Réalisation des maquettes du site avec Photoshop et Canva.</li>
-                                <li>Intégration des maquettes avec Elementor, PHP, JS, CSS et HTML pour la conception des pages.</li>
-                                <li>Suivi des performances du site avec Google Analytics Universal et GA4.</li>
-                                <li>Identification et correction de bugs techniques sur le site.</li>
+                                <li>Intégration des maquettes avec Elementor, PHP, JS, CSS et HTML.</li>
+                                <li>Maintenance et correction de bugs techniques sur le site.</li>
+                                <li>...</li>
                             </ul>
+                            <p className="font-thin mt-4 text-green-400 hover:font-bold">Lire plus ►</p>
+
                         </article>
                         {showModal4 &&
                             <Modal onClose={() => setShowModal4(false)}>
