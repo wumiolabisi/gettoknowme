@@ -34,7 +34,7 @@ const About = () => {
             <div className="text-center mt-10 mb-24 md:w-3/4 md:mx-auto">
 
                 <Reveal>
-                    <a href="#contact" className="rounded-full px-10 py-4 uppercase border-2 border-solid border-green-300 bg-green-300 text-gray-800 hover:bg-transparent hover:text-green-300 hover:border-green-300 transition-all duration-300">Contactez-moi</a>
+                    <a href="#contact" className="rounded-full font-bold text-sm px-10 py-4 uppercase border-2 border-solid border-green-300 bg-green-300 text-gray-800 hover:bg-transparent hover:text-green-300 hover:border-green-300 transition-all duration-300">Contactez-moi</a>
                 </Reveal>
             </div>
 

@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Mockup from '../../../public/pr-webdoc-mockup.jpg';
-import Banner from '../../../public/pr-webdoc-banner.jpg';
+import Mockup from '../../../public/pr-webdoc-mockup.png';
+import Banner from '../../../public/pr-webdoc-banner.png';
 import Image from "next/image";
 
 const Webdoc = () => {

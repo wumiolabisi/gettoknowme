@@ -44,9 +44,9 @@ html {
 
 }
 
-.mask-link:hover {
-  /*-webkit-mask-image: url(star.svg);
-  mask-image: url(star.svg);*/
+#mask-link-about:hover {
+  -webkit-mask-image: url(/public/about-green.png);
+  mask-image: url(/public/about-green.png);
 }
 
 .text-xxs {
