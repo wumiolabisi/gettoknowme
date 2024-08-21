@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/_components/Navbar";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter_font = Inter({ subsets: ["latin"], weight: ["200", "400", "800"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <main className="flex min-h-screen flex-col items-center justify-between">
           {children}
           <SpeedInsights />
+          <Analytics />
         </main>
         <footer className="flex flex-row justify-center  md:mb-0 mb-10">
           <div className="relative h-32 w-full">
