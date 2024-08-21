@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.12",
     "again": "^0.0.1",
     "chart.js": "^4.4.3",
     "framer-motion": "^11.3.24",

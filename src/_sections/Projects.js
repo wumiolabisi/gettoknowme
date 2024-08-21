@@ -43,7 +43,7 @@ const Projects = () => {
                             <p className="my-4 font-thin md:text-sm">Les femmes à l&apos;honneur dans un catalogue de films et séries dédié à leurs &oelig;uvres.</p>
                             <ul className='list-disc ps-8 font-thin md:text-sm'>
                                 <li>Conception mobile-first, interfaces adaptées à tous les écrans.</li>
-                                <li>Utilisation de Laravel Mix pour optimiser les fichiers JS et CSS.</li>
+                                <li>Laravel Mix pour optimiser les fichiers JS et CSS.</li>
                                 <li>AJAX pour le filtrage des films sans rechargement de page.</li>
                                 <li>...</li>
                             </ul>

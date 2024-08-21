@@ -28,7 +28,7 @@ const About = () => {
             </div>
             <div className="text-center  md:w-3/4 md:mx-auto">
                 <Reveal>
-                    <p className="text-xl font-light">Avec plus de trois ans d&apos;expériences dans le développement web, je souhaite continuer à réaliser des solutions webs auprès de collaborateurs·ices qui souhaitent avoir un impact réel dans le monde numérique.</p>
+                    <p className="text-xl font-light">Avec plus de trois ans d&apos;expériences dans le développement web, je souhaite continuer à réaliser des solutions web auprès de collaborateurs·ices qui souhaitent avoir un impact réel dans le monde numérique.</p>
                 </Reveal>
             </div>
             <div className="text-center mt-10 mb-24 md:w-3/4 md:mx-auto">
@@ -50,7 +50,7 @@ const About = () => {
                             <p>Je souhaite intégrer une entreprise qui m&apos;offrira des challenges techniques et qui me permettra d&apos;évoluer en tant que développeuse web Full Stack. </p>
                             <p className="mt-4">En dehors du travail, je m&apos;amuse avec la modélisation 3D, l&apos;animation et le montage vidéo,
                                 et je compose des musiques assistées par ordinateur.</p>
-                            <p className="mt-4">Ces projets personnels me permettent de faire preuve d&apos;initiative et de créativité dans les projets professionnels qui me sont confiés.</p>
+                            <p className="mt-4">Ces projets personnels me permettent d&apos;illustrer ma capacité à faire preuve d&apos;initiative et de créativité dans les projets professionnels qui me sont confiés.</p>
 
                         </Reveal>
                     </div>
