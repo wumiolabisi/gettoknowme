@@ -11,7 +11,7 @@ const Experiences = () => {
                     <h3 className="text-xl"><strong>Webmaster</strong> chez Solocal Marketing Services</h3>
                     <p className="text-green-300 text-lg">1 an (2023-2024) - Angoulême</p>
                     <p className="mt-4">J&apos;ai mené à terme plus de <strong>30 sites vitrines et e-commerce</strong>. Du brief client à la livraison de la solution finale,
-                        mon rôle était de m&apos;assurer que les client·es aient un site personnalisé et optimisé afin d&apos;améliorer leur visibilité.
+                        je me suis assurée que les client·es aient un site sur mesure pour leur marque. J&apos;ai optimisé le SEO et l&apos;accessibilité pour améliorer leur visibilité et maximiser leur trafic.
                     </p>
                     <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
                         <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Intégration</span>
@@ -28,8 +28,8 @@ const Experiences = () => {
                     <h3 className="text-xl"><strong>Développeuse Full Stack WordPress</strong> chez Kroskel</h3>
                     <p className="text-green-300 text-lg">2 ans (2021-2023) - 100% télétravail</p>
                     <p className="mt-4">J&apos;ai pris en main la conception et la réalisation de la boutique e-commerce et du blog.
-                        Mon rôle était de créer une solution e-commerce fiable rapidement afin d&apos;améliorer la visibilité et le ROI de la marque.
-                        Après sa mise en place, j&apos;ai optimisé la boutique et le blog en améliorant les performances de chargement et la sémantique SEO.
+                        J&apos;ai mis en place une solution e-commerce fiable rapidement afin d&apos;améliorer la visibilité et le ROI de la marque.
+                        J&apos;ai ensuite optimisé la boutique et le blog en améliorant les performances de chargement et la sémantique SEO.
                         J&apos;étais également responsable de la maintenance et effectuait donc toutes les corrections techniques pour garantir une disponibilité sans faille de la boutique.
                     </p>
                     <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
@@ -49,7 +49,7 @@ const Experiences = () => {
                     <p className="mt-4">Chez Numberly, j&apos;ai acquis trois ans d&apos;expérience en tant que développeuse emailing,
                         dont deux en alternance.
                         J&apos;ai développé des campagnes d&apos;emailing personnalisées en utilisant HTML et CSS.
-                        Mon rôle a impliqué la création de templates responsives et l&apos;optimisation des taux de délivrabilité et d&apos;engagement.
+                        J&apos;ai également travailler sur la création de templates responsives et l&apos;optimisation des taux de délivrabilité et d&apos;engagement.
                         J&apos;ai collaboré directement avec les équipes marketing pour assurer que chaque campagne soit conforme aux exigences de nos clients.</p>
                     <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
                         <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">HTML5</span>
