@@ -28,9 +28,9 @@ const About = () => {
             </div>
             <div className="text-center  md:w-3/4 md:mx-auto">
                 <Reveal>
-                    <p className="text-xl font-light">Après plus de 30 sites vitrines et e-commerces réalisés et 4
-                        ans d&apos;expériences dans le développement web, je suis à la recherche d&apos;un nouveau
-                        challenge pour développer les solutions web de vos client·es.</p>
+                    <p className="text-xl font-light">Après plus de 30 sites vitrines et e-commerces réalisés et 6
+                        ans d&apos;expériences dont 4 spécialisés dans le développement web, je suis à la recherche d&apos;un nouveau
+                        challenge pour développer des solutions web performantes.</p>
                 </Reveal>
             </div>
             <div className="text-center mt-10 mb-24 md:w-3/4 md:mx-auto">
