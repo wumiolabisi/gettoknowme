@@ -10,12 +10,12 @@ const About = () => {
             <div className="flex flex-col-reverse items-center">
                 <Reveal>
                     <div className="text-center">
-                        <p className="text-lg font-light">Niveau <span className="font-bold">INGÉNIEURE</span> - BAC+5 <a href="https://www.francecompetences.fr/recherche/rncp/35078/" target="_blank" title="Accéder à la fiche de mon titre RNCP">Certification RNCP 35078 de Niveau 7</a></p>
+                        <p className="text-lg font-light">BAC+5 <a href="https://www.francecompetences.fr/recherche/rncp/35078/" target="_blank" title="Accéder à la fiche de mon titre RNCP">Certification RNCP 35078 de Niveau 7</a></p>
                     </div>
                 </Reveal>
                 <Reveal>
                     <div className="flex flex-col-reverse items-center mt-10">
-                        <h1 className="text-3xl text-white text-center">Développeuse Web Full stack | Paris et région</h1>
+                        <h1 className="text-3xl text-white text-center">Experte Digitale SEO & Développeuse Web Full stack | Paris et région</h1>
                         <p className="uppercase text-4xl font-bold mb-2 text-center">Omowumi OLABISI</p>
                     </div>
                 </Reveal>
