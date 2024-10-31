@@ -35,7 +35,7 @@ const About = () => {
             </div>
             <div className="text-center  md:w-3/4 md:mx-auto">
                 <Reveal>
-                    <p className="text-xl font-light">Après plus de 30 sites vitrines et e-commerces réalisés et 6
+                    <p className="text-xl font-light">Après plus de 30 sites vitrines et e-commerces réalisés et 4
                         ans d&apos;expériences dans le développement web, je suis à la recherche d&apos;un nouveau
                         challenge pour développer des solutions web performantes.</p>
 
@@ -58,7 +58,7 @@ const About = () => {
                     <div className="md:w-3/5 font-thin">
                         <Reveal>
                             <p className="mt-4"> Je suis une développeuse web polyvalente et entreprenante,
-                                forte d&apos;une expérience de 6 ans en full stack. Ma créativité et ma capacité à apprendre seront des atouts pour répondre à vos challenges techniques.</p>
+                                forte d&apos;une expérience de plus de 4 ans en full stack. Ma créativité et ma capacité à apprendre seront des atouts pour répondre à vos challenges techniques.</p>
                             <p className="mt-4">Je souhaite intégrer une entreprise qui m&apos;offrira des challenges techniques et qui me permettra d&apos;évoluer en tant que développeuse web Full Stack. </p>
                             <p className="mt-4">Dans mes projets personnels, je m&apos;amuse avec la modélisation 3D, l&apos;animation et le montage vidéo,
                                 et je compose des musiques assistées par ordinateur. Ces projets personnels me permettent d&apos;illustrer ma capacité à faire preuve d&apos;initiative et de créativité dans les projets professionnels qui me sont confiés.</p>
