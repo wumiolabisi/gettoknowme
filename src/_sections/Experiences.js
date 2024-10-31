@@ -50,11 +50,11 @@ const Experiences = () => {
                         un tour de France en camion aménagé pour explorer, créer et connecter. Ce voyage m&apos;a permis de co-réaliser le podcast
                         <strong>A TAAABLE ! Etc...</strong>, une émission immersive enregistrée sur la route où nous allions à la rencontre de personnes.
                         À travers des interviews uniques autour du thème du repas, nous avons partagé des histoires de vie et de valeurs,
-                        donnant voix à des réalités variées qui résonnent avec les nôtres.<br>
-                            Durant cette période, j&apos;ai également eu
-                            l&apos;opportunité de travailler sur la websérie <strong>Les 99%</strong> réalisée par Ornella DJOUKUI.
-                            J&apos;y ai contribué en tant que monteuse et spécialiste des effets spéciaux, en mettant
-                            en image des récits qui interrogent sur l&apos;héritage, les défis, et les aspirations de générations entières.
+                        donnant voix à des réalités variées qui résonnent avec les nôtres.</p>
+                    <p className="mt-4">Durant cette période, j&apos;ai également eu
+                        l&apos;opportunité de travailler sur la websérie <strong>Les 99%</strong> réalisée par Ornella DJOUKUI.
+                        J&apos;y ai contribué en tant que monteuse et spécialiste des effets spéciaux, en mettant
+                        en image des récits qui interrogent sur l&apos;héritage, les défis, et les aspirations de générations entières.
                     </p>
                     <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
                         <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">WordPress</span>
