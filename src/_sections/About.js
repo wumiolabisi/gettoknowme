@@ -15,7 +15,7 @@ const About = () => {
                 </Reveal>
                 <Reveal>
                     <div className="flex flex-col-reverse items-center mt-10">
-                        <h1 className="text-3xl text-white text-center">Experte Digitale SEO & Développeuse Web Full stack | Paris et région</h1>
+                        <h1 className="text-3xl text-white text-center">Experte Digitale | Développeuse Web Full Stack | Consultante SEO | Paris et région</h1>
                         <p className="uppercase text-4xl font-bold mb-2 text-center">Omowumi OLABISI</p>
                     </div>
                 </Reveal>
