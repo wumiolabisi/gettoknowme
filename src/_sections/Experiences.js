@@ -9,7 +9,7 @@ const Experiences = () => {
             <Reveal>
                 <article className="my-10 pb-10 border-b-2 border-solid border-b-gray-700">
                     <h3 className="text-xl"><strong>Intégratrice Web et rédactrice SEO</strong> chez Solocal Marketing Services</h3>
-                    <p className="text-green-300 text-lg">1 an (2023 - 2024) - Angoulême</p>
+                    <p className="text-green-300 text-lg">11 mois (Mai 2023 - Mars 2024) - Angoulême</p>
                     <p className="mt-4">J&apos;ai mené à terme plus de <strong>30 sites vitrines et e-commerce</strong>. Du brief client à la livraison de la solution finale,
                         je me suis assurée que les client·es aient un site sur mesure pour leur marque. J&apos;ai optimisé le SEO et l&apos;accessibilité pour améliorer leur visibilité et maximiser leur trafic.
                     </p>
@@ -39,6 +39,8 @@ const Experiences = () => {
                         <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">CSS</span>
                         <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Javascript</span>
                         <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">SEO</span>
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Photoshop</span>
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Premiere Pro</span>
                     </section>
                 </article>
             </Reveal>
@@ -62,7 +64,7 @@ const Experiences = () => {
             <Reveal>
                 <article className="my-10 pb-10 border-b-2 border-solid border-b-gray-700">
                     <h3 className="text-xl"><strong>Créations visuelles et sonores, création du site associé et gestion de contenus</strong></h3>
-                    <p className="text-green-300 text-lg">1 an et 10 mois</p>
+                    <p className="text-green-300 text-lg">1 an et 10 mois (Juillet 2019 - Avril 2021)</p>
                     <p className="mt-4">Entre 2019 et 2021, j&apos;ai entrepris un projet personnel enrichissant avec ma compagne :
                         un tour de France en camion aménagé pour explorer, créer et connecter. Ce voyage m&apos;a permis de co-réaliser le podcast <strong>A TAAABLE ! Etc...</strong>, une émission immersive enregistrée sur la route où nous allions à la rencontre de personnes.
                         À travers des interviews uniques autour du thème du repas, nous avons partagé des histoires de vie et de valeurs,
@@ -72,7 +74,19 @@ const Experiences = () => {
                         J&apos;y ai contribué en tant que monteuse et spécialiste des effets spéciaux, en mettant
                         en image des récits qui interrogent sur l&apos;héritage, les défis, et les aspirations de générations entières.
                     </p>
-
+                    <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">WordPress</span>
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">PHP</span>
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">HTML</span>
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">CSS</span>
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Javascript</span>
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">SEO</span>
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Audacity</span>
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Ableton</span>
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Photoshop</span>
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">After Effects</span>
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Premiere Pro</span>
+                    </section>
                 </article>
             </Reveal>
             <Reveal>
