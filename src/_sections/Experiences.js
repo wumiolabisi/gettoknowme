@@ -72,9 +72,8 @@ const Experiences = () => {
                         À travers des interviews uniques autour du thème du repas, nous avons partagé des histoires de vie et de valeurs,
                         donnant voix à des réalités variées qui résonnent avec les nôtres.</p>
                     <p className="mt-4">Durant cette période, j&apos;ai également eu
-                        l&apos;opportunité de travailler sur la websérie <strong>Les 99%</strong> réalisée par Ornella DJOUKUI.
-                        J&apos;y ai contribué en tant que monteuse et spécialiste des effets spéciaux, en mettant
-                        en image des récits qui interrogent sur l&apos;héritage, les défis, et les aspirations de générations entières.
+                        l&apos;opportunité de travailler sur des court-métrages et sur une websérie. Grâce à mes connaissances des
+                        logiciels Premiere Pro et After Effects, j&apos;y ai contribué en tant que monteuse vidéo et VFX.
                     </p>
                     <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
                         <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">WordPress</span>
