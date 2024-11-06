@@ -49,8 +49,9 @@ const Experiences = () => {
                 <article className="my-10 pb-10 border-b-2 border-solid border-b-gray-700">
                     <h3 className="text-xl"><strong>Développeuse Full Stack WordPress</strong> en freelance</h3>
                     <p className="text-green-300 text-lg">10 mois (Mai 2021 - Février 2022) - Paris, Angoulême</p>
-                    <p className="mt-4">J&apos;ai pris en main la conception et l&apos;intégration de sites pour des artisans et petites entreprises,
-                        l&apos;accompagnement sur la maintenance et l&apos;optimisation SEO de leur solution digitale. J&apos; créé durant ma période en freelance des sites vitrines et e-commerce avec WordPress.</p>
+                    <p className="mt-4">J&apos;ai conçu et réalisé des sites web sur mesure pour des artisans et microentreprises,
+                        en prenant en charge l&apos;ensemble du processus, du maquettage à l&apos;intégration des fonctionnalités.
+                        Ce rôle m&apos;a permis de renforcer mes compétences en développement front-end et back-end, en référencement SEO et en relation client.</p>
                     <section className="my-4 flex flex-row flex-wrap justify-start items-center gap-2">
                         <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">WordPress</span>
                         <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">PHP</span>
@@ -58,6 +59,7 @@ const Experiences = () => {
                         <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">CSS</span>
                         <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Javascript</span>
                         <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">SEO</span>
+                        <span className="badge rounded-full bg-zinc-700 text-green-300 text-sm">Relation client</span>
                     </section>
                 </article>
             </Reveal>
